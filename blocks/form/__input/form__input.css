@@ -8,6 +8,7 @@
   line-height: 20px;
   letter-spacing: 0.1px;
   color: #009FAC;
+  outline: 0;
 }
 
 .form__input::placeholder {
