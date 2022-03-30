@@ -1,6 +1,4 @@
 .contacts {
-  max-width: 1440px;
-  background: #009FAC;
   display: grid;
   justify-content: center;
   justify-items: center;
@@ -8,7 +6,7 @@
   grid-template-columns: minmax(288px, 1110px);
   grid-template-rows: 68px 60px 250px;
   gap: 2em;
-  padding: 3em
+  padding: 3em;
 }
 
 @media (max-width: 800px) {
