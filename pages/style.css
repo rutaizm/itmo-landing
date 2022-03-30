@@ -10,6 +10,10 @@
 
 /* SECTION */
 @import url(../blocks/section/section.css);
+@import url(../blocks/section/_theme/section_theme_emerald.css);
+@import url(../blocks/section/_theme/section_theme_light-blue.css);
+@import url(../blocks/section/_theme/section_theme_dark-blue.css);
+@import url(../blocks/section/__container/section__container.css);
 @import url(../blocks/section/__title/section__title.css);
 @import url(../blocks/section/__text/section__text.css);
 
