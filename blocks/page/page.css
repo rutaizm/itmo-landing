@@ -1,3 +1,12 @@
 .page {
+  min-width: 320px;
+  background-color: #001337;
   font-family: 'Open Sans', sans-serif;
+  /*Сгладить шрифты, такой пункт есть в чеклисте 3 проектной работы*/
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
 }
