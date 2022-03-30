@@ -1,4 +1,7 @@
-const swiper = new Swiper('.swiper', {
+import CardPublication from "../components/CardPublication.js";
+import { publicationCards } from "../utils/publicationCards.js";
+
+const publicationSlider = new Swiper('.publication__slider', {
     // Optional parameters
     slidesPerView: 3,
     slidesPerGroup: 3,
@@ -19,3 +22,16 @@ const swiper = new Swiper('.swiper', {
         prevEl: '.publication__slider-button_prev',
     },
 });
+
+
+const cardContainer = document.querySelector('.publication__cards')
+
+
+function renderPublicationCards() {
+    publicationCards.forEach(card => {
+        const cardElement = new CardPublication(card, '#tempCardPublication').generateCard()
+        cardContainer.append(cardElement)
+    })
+}
+
+renderPublicationCards()
