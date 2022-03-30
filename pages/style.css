@@ -11,3 +11,6 @@
 /* SECTION */
 @import url(../blocks/section/section.css);
 @import url(../blocks/section/__title/section__title.css);
+
+/* PUBLICATION */
+@import url("../blocks/publication/publication.css");

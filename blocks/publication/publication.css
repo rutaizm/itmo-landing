@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+}
+
+.section {
+    padding: 0 0 100px;
+}
+
+.publication {
+    background-color: #e0f0ff;
+}
+
+.publication-container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.section__title {
+}
+.swiper {
+}
+.swiper-wrapper {
+}
+.publication__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 348px);
+    gap: 30px 33px;
+}
+.swiper-slide {
+}
+.publication__card {
+}
+.card-publication {
+    max-width: 348px;
+    padding: 20px 0 0;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
+    border-radius: 10px;
+    position: relative;
+}
+
+.card-publication:hover .card-publication__content {
+    transform: translateY(-70px);
+}
+
+.card-publication__image-box {
+    padding: 0 19px;
+    height: 223px;
+    margin-bottom: 20px;
+}
+
+.card-publication:hover .card-publication__image {
+    height: 158px;
+}
+
+.card-publication__image {
+    transition: all 0.5s;
+    display: block;
+    width: 100%;
+    height: 223px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+.card-publication__content {
+    padding: 0 20px 30px;
+    color: #000d26;
+    background-color: #fff;
+    transition: all 0.5s;
+    position: relative;
+    z-index: 2;
+    border-radius: 0 0 10px 10px;
+}
+.card-publication__title {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 4px;
+}
+.card-publication__users {
+    margin: 0;
+    margin-bottom: 20px;
+    color: #009fac;
+    font-size: 14px;
+    line-height: 19px;
+    font-style: italic;
+}
+.card-publication__text {
+    margin: 0;
+}
+.publication__bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #009fac;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.publication__link {
+    display: block;
+    padding: 5px;
+    padding-right: 41px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+}
+
+.publication__link::after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background-image: url("../../images/icon/arrow-icon.svg");
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+}
+
+.publication__social {
+    background-image: url("../../images/icon/share-icon.svg");
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+
+.publication__share {
+}
+.share-publication {
+    width: 184px;
+    height: 56px;
+    position: absolute;
+    background-color: #fff;
+    z-index: 10;
+    list-style: none;
+    display: none;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 0;
+    filter: drop-shadow(0px 4px 20px rgba(73, 111, 168, 0.15));
+    top: -63px;
+    right: -63px;
+}
+
+.share-publication::before {
+    content: "";
+    position: absolute;
+    background-image: url("../../images/icon/triangle.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 50%;
+    bottom: -7px;
+    transform: translateX(-50%);
+    z-index: 100;
+    width: 16px;
+    height: 8px;
+}
+
+.share-publication_active {
+    display: flex;
+}
+
+.share-publication__social {
+    width: 29px;
+    height: 29px;
+    padding: 5px;
+    background-size: 22px 22px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.share-publication__social_vk {
+    background-image: url("../../images/icon/vk-icon.svg");
+}
+.share-publication__social_facebook {
+    background-image: url("../../images/icon/facebook-icon.svg");
+}
+.share-publication__social_telegram {
+    background-image: url("../../images/icon/telegram-icon.svg");
+}
+.share-publication__social_instargram {
+    background-image: url("../../images/icon/instagram-icon.svg");
+}
+.share-publication__social_youtube {
+    background-image: url("../../images/icon/youtube-icon.svg");
+}
+
+.swiper-pagination {
+}
+.swiper-button-prev {
+}
+.swiper-button-next {
+}
+.swiper-scrollbar {
+}

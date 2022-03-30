@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Когнитивные технологии, машинное обучение — Университет ИТМО</title>
+  <!-- <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" /> -->
   <link rel="stylesheet" href="./pages/style.css">
 </head>
+
 <body class="page">
   <header class="header">
     header
   </header>
-  <section class="section hero">
+  <!-- <section class="section hero">
     <h1 class="hero__title">Когнитивные технологии, <span class="hero__title_lighter">машинное обучение</span></h1>
   </section>
   <section class="section about">
@@ -25,9 +28,118 @@
   </section>
   <section class="section education">
     <h2 class="section__title">Образование</h2>
-  </section>
-  <section class="section publications">
-    <h2 class="section__title">Публикации</h2>
+  </section> -->
+  <section class="section publication">
+    <div class="publication-container">
+      <h2 class="section__title">Публикации</h2>
+
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper publication__cards">
+          <!-- Slides -->
+          <div class="swiper-slide publication__card card-publication">
+            <div class="card-publication__image-box">
+              <img class="card-publication__image"
+                src="./images/publication/publication_Topic-driven Ensemble for Online Advertising Generation.png"
+                alt="Topic-driven">
+            </div>
+            <div class="card-publication__content">
+              <h4 class="card-publication__title">Topic-driven Ensemble for Online Advertising Generation</h4>
+              <p class="card-publication__users">Egor Nevezhin, Nikolay Butakov, Maria Khodorchenko, Maxim Petrov, Denis
+                Nasonov</p>
+              <p class="card-publication__text">Online advertising is one of the most widespread ways to reach and
+                increase a target audience for those selling products. Usually having a form of a banner, advertising
+                engages users into visiting a corresponding webpage. Professional generation of banners requires
+                creative
+                and writing skills and a basi…</p>
+            </div>
+            <div class="publication__bottom">
+              <a class="publication__link" href="#">Читать полностью</a>
+              <button class="publication__social"></button>
+              <ul class="publication__share share-publication">
+                <li class="share-publication__social share-publication__social_vk"></li>
+                <li class="share-publication__social share-publication__social_facebook"></li>
+                <li class="share-publication__social share-publication__social_telegram"></li>
+                <li class="share-publication__social share-publication__social_instargram"></li>
+                <li class="share-publication__social share-publication__social_youtube"></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="swiper-slide publication__card card-publication">
+            <div class="card-publication__image-box">
+              <img class="card-publication__image"
+                src="./images/publication/publication_Convolutional neural networks with hierarchical context transfe….png"
+                alt="Topic-driven">
+            </div>
+            <div class="card-publication__content">
+              <h4 class="card-publication__title">Convolutional neural networks with hierarchical context transfe…</h4>
+              <p class="card-publication__users">Ksenia D Mukhina, Alexander A Visheratin, Denis Nasonov</p>
+              <p class="card-publication__text">In this work, we consider a problem of predicting the next state of a
+                given area using retrospective information. The proposed concept of hierarchical context transfer (HCT)
+                operates on several spatial levels of the input data to overcome major issues of next state prediction
+                problems - density variability, a sig…</p>
+            </div>
+            <div class="publication__bottom">
+              <a class="publication__link" href="#">Читать полностью</a>
+              <button class="publication__social"></button>
+              <ul class="publication__share share-publication">
+                <li class="share-publication__social share-publication__social_vk"></li>
+                <li class="share-publication__social share-publication__social_facebook"></li>
+                <li class="share-publication__social share-publication__social_telegram"></li>
+                <li class="share-publication__social share-publication__social_instargram"></li>
+                <li class="share-publication__social share-publication__social_youtube"></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="swiper-slide publication__card card-publication">
+            <div class="card-publication__image-box">
+              <img class="card-publication__image"
+                src="./images/publication/publication_Spatiotemporal Filtering Pipeline for Efficient Social Networks Dat….png"
+                alt="Topic-driven">
+            </div>
+            <div class="card-publication__content">
+              <h4 class="card-publication__title">Spatiotemporal Filtering Pipeline for Efficient Social Networks Dat…
+              </h4>
+              <p class="card-publication__users">Ksenia Mukhina, Alexander Visheratin, Denis Nasonov</p>
+              <p class="card-publication__text">One of the areas that gathers momentum is the investigation of
+                location-based social networks (LBSNs) because the understanding of citizens’ behavior on various scales
+                can help to improve quality of living, enhance urban management, and advance the development of smart
+                cities. But it is widely known that the…</p>
+            </div>
+            <div class="publication__bottom">
+              <a class="publication__link" href="#">Читать полностью</a>
+              <button class="publication__social"></button>
+              <ul class="publication__share share-publication">
+                <li class="share-publication__social share-publication__social_vk"></li>
+                <li class="share-publication__social share-publication__social_facebook"></li>
+                <li class="share-publication__social share-publication__social_telegram"></li>
+                <li class="share-publication__social share-publication__social_instargram"></li>
+                <li class="share-publication__social share-publication__social_youtube"></li>
+              </ul>
+            </div>
+          </div>
+
+
+
+
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </div>
+
+
+
+
   </section>
   <section class="section team">
     <h2 class="section__title">Наша команда</h2>
@@ -41,5 +153,9 @@
   <footer class="footer">
     footer
   </footer>
+
+  <!-- <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script> -->
+  <script src="./pages/index.js"></script>
 </body>
+
 </html>
