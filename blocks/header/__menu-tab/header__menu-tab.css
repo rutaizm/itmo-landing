@@ -1,0 +1,13 @@
+.header__menu-tab {
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  min-width: 100px;
+  min-height: 44px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
