@@ -22,6 +22,10 @@ export default class CardPublication {
         this._buttonSocial.addEventListener('click', () => {
             this._boxSocial.classList.toggle('share-publication_active')
         })
+
+        this._element.addEventListener('mouseleave', () => {
+            this._boxSocial.classList.remove('share-publication_active')
+        })
     }
 
     generateCard() {
