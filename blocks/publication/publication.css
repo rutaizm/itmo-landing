@@ -86,6 +86,10 @@
     font-weight: 600;
     margin: 0;
     margin-bottom: 4px;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 .card-publication__users {
     margin: 0;
@@ -94,11 +98,19 @@
     font-size: 14px;
     line-height: 19px;
     font-style: italic;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 .card-publication__text {
     margin: 0;
     font-size: 14px;
     line-height: 19px;
+    -webkit-line-clamp: 7;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 .publication__bottom {
     position: absolute;
