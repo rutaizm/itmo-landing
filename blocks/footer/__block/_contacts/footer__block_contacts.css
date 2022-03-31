@@ -1,3 +1,4 @@
 .footer__block_contacts {
-
+  display: grid;
+  gap: 8px;
 }

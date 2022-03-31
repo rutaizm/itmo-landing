@@ -1,5 +1,6 @@
 .footer__svg {
     fill: #ffffff;
+    transition: all 0.5s ease;
 }
 
 .footer__svg:hover {
