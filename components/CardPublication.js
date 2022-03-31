@@ -21,11 +21,36 @@ export default class CardPublication {
     _setEventListeners() {
         this._buttonSocial.addEventListener('click', () => {
             this._boxSocial.classList.toggle('share-publication_active')
+
         })
 
         this._element.addEventListener('mouseleave', () => {
             this._boxSocial.classList.remove('share-publication_active')
         })
+    }
+
+    _setEventShare() {
+        this._shareVkButton = this._element.querySelector('.share-publication__social_vk')
+        this._shareFacebookButton = this._element.querySelector('.share-publication__social_facebook')
+        this._shareTelegramButton = this._element.querySelector('.share-publication__social_telegram')
+        // this._shareVkButton = this._element.querySelector('.share-publication__social_vk')
+        // this._shareVkButton = this._element.querySelector('.share-publication__social_vk')
+
+        this._windowParams = `width=650,height=570, left=${String(window.innerWidth / 2 - 650 / 2)}, top=${String(window.innerHeight / 2 - 570 / 2)}`
+
+        this._shareVkButton.addEventListener('click', () => {
+            window.open(`http://vk.com/share.php?url=${this._link}&title=${this._title}&image=${this._image}`, "VK", this._windowParams)
+        })
+
+        this._shareFacebookButton.addEventListener('click', () => {
+            window.open(`https://www.facebook.com/sharer/sharer.php?u=${this._link}&picture=${this._image}`, "Facebook", this._windowParams)
+        })
+
+        this._shareTelegramButton.addEventListener('click', () => {
+            window.open(`https://t.me/share/url?url=${this._link}&text=${this._title}`, "Telegram", this._windowParams)
+        })
+
+
     }
 
     generateCard() {
@@ -48,6 +73,7 @@ export default class CardPublication {
         this._cardLink.href = this._link;
 
         this._setEventListeners()
+        this._setEventShare()
         return this._element
     }
 }
