@@ -1,4 +1,7 @@
 .footer__block_contacts {
-  display: grid;
-  gap: 8px;
+
+}
+
+.footer__block_contacts > div:first-of-type {
+  margin: 0 0 8px 0;
 }

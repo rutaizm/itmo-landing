@@ -7,3 +7,7 @@
 .footer__list > li {
     margin: 0 0 8px 0;
 }
+
+.footer__list > li:last-of-type {
+  margin: 0;
+}

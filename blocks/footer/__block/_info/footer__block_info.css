@@ -4,3 +4,7 @@
 .footer__block_info > p:first-of-type {
   margin-bottom: 30px;
 }
+
+.footer__block_info > p:last-of-type {
+  margin: 0;
+}
