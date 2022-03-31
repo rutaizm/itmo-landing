@@ -12,25 +12,25 @@
   header
 </header>
 <main class="content">
-  <section class="section hero">
+  <section class="section hero" id="About">
     <h1 class="hero__title">Когнитивные технологии, <span class="hero__title_lighter">машинное обучение</span></h1>
   </section>
   <section class="section section_theme_dark-blue">
     <div class="about section__container">
       <h2 class="section__title">Несколько слов о нас</h2>
-    </div>    
+    </div>
   </section>
-  <section class="section section_theme_light-blue">
+  <section class="section section_theme_light-blue" id="Lab">
     <div class="lab section__container">
       <h2 class="section__title">Industrial AI Research Lab</h2>
-    </div>    
+    </div>
   </section>
-  <section class="section section_theme_dark-blue">
+  <section class="section section_theme_dark-blue" id="Projects">
     <div class="projects section__container">
       <h2 class="section__title">Наши проекты</h2>
-    </div>    
+    </div>
   </section>
-  <section class="section section_theme_emerald">
+  <section class="section section_theme_emerald" id="Education">
     <div class="education section__container">
       <h2 class="section__title">Образование</h2>
       <p class="section__text">В образовательной деятельности НЦКР активно использует существующую в
@@ -39,22 +39,22 @@
         дистанционного образования. Реализуются образовательные программы различных форматов.</p>
     </div>
   </section>
-  <section class="section section_theme_light-blue">
+  <section class="section section_theme_light-blue" id="Publications">
     <div class="publications section__container">
       <h2 class="section__title">Публикации</h2>
-    </div>    
+    </div>
   </section>
-  <section class="section">
+  <section class="section" id="Team">
     <div class="team">
       <h2 class="section__title">Наша команда</h2>
-    </div>    
+    </div>
   </section>
   <section class="section section_theme_dark-blue">
     <div class="partners section__container">
       <h2 class="section__title">С кем мы работаем</h2>
-    </div>    
+    </div>
   </section>
-  <section class="section section_theme_emerald">
+  <section class="section section_theme_emerald" id="Contacts">
     <div class="contacts section__container">
       <h2 class="section__title">Всегда на связи</h2>
       <p class="section__text">По всем интересующим вас вопросам вы всегда можете обратиться по указанным телефонам,
@@ -77,7 +77,85 @@
   </section>
 </main>
 <footer class="footer">
-  footer
+  <div class="footer__main-container">
+    <a href="index.html"><img alt="Logo" src="./images/logo.png"></a>
+    <div class="footer__div">
+      <div class="footer__block footer__block_info">
+        <p class="footer__text">Информация © 2020 Университет ИТМО</p>
+        <p class="footer__text">Национальный центр когнитивных разработок – центр национальной технологической инициативы
+          (НТИ), получивший государственную поддержку по направлению «Технологии машинного обучения и когнитивные
+          технологии». Инфраструктурная основа взаимодействия научных, образовательных и промышленных организаций</p>
+      </div>
+      <div class="footer__block footer__block_list">
+        <h5 class="footer__title footer__title_list">О центре</h5>
+        <ul class="footer__list">
+          <li><a class="footer__link" href="#About">О нас</a></li>
+          <li><a class="footer__link" href="index.html">Главная</a></li>
+          <li><a class="footer__link" href="#Team">Команда</a></li>
+          <li><a class="footer__link" href="#Lab">Лаборатория</a></li>
+          <li><a class="footer__link" href="#Contacts">Контакты</a></li>
+        </ul>
+      </div>
+      <div class="footer__block footer__block_list">
+        <h5 class="footer__title footer__title_list">Развитие</h5>
+        <ul class="footer__list">
+          <li><a class="footer__link" href="#Education">Образование</a></li>
+          <!--   добавить ссылки и переключение кнопок в блоке образование   -->
+          <li><a class="footer__link" href="">Аспирантура</a></li>
+          <li><a class="footer__link" href="">Магистратура</a></li>
+          <!--      -->
+          <li><a class="footer__link" href="#Publications">Публикации</a></li>
+          <li><a class="footer__link" href="#Projects">Проекты</a></li>
+        </ul>
+      </div>
+      <div class="footer__block footer__block_contacts">
+        <p class="footer__title">г.Санкт-Петербург</p>
+        <p class="footer__text">199034, Санкт-Петербург,
+          Биржевая линия, д. 4, лит. М,
+          ауд. 302С</p>
+        <div>
+          <a class="footer__link" href="tel:+78123376490">+7 (812) 337-64-90</a><br>
+          <a class="footer__link" href="tel:+78123376494">+7 (812) 337-64-94</a>
+        </div>
+        <a class="footer__link" href="mailto:anna.lutsenko@itmo.ru">anna.lutsenko@itmo.ru</a>
+        <div class="footer__social">
+          <a href="https://vk.com/itmoru">
+            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"
+                 class="footer__svg">
+              <path d="M23 21.0556V3.94444C23 2.6 21.8963 1.5 20.5494 1.5H3.45056C2.045 1.5 1 2.54256 1 3.94444V21.0556C1 22.4587 2.045 23.5 3.45056 23.5H20.5494C21.198 23.499 21.8198 23.2414 22.279 22.7833C22.7382 22.3253 22.9974 21.7041 23 21.0556ZM18.336 14.4641C18.336 14.4641 19.7196 15.8293 20.0606 16.4624C20.0703 16.4759 20.074 16.4881 20.0777 16.493C20.2158 16.7252 20.2512 16.9086 20.1816 17.043C20.0667 17.2667 19.6756 17.3791 19.5423 17.3889H17.0991C16.928 17.3889 16.5736 17.3449 16.1433 17.0479C15.8133 16.8181 15.487 16.438 15.1692 16.0677C14.695 15.5177 14.2843 15.041 13.8712 15.041C13.8188 15.0409 13.7668 15.0496 13.7172 15.0667C13.4031 15.1669 13.0047 15.613 13.0047 16.8047C13.0047 17.1774 12.7113 17.3901 12.5036 17.3901H11.384C11.0027 17.3901 9.01656 17.2569 7.25778 15.4003C5.09933 13.127 3.16089 8.56689 3.14378 8.52656C3.02156 8.232 3.27456 8.07189 3.54956 8.07189H6.01844C6.34967 8.07189 6.456 8.27233 6.53178 8.452C6.61733 8.65611 6.94 9.47989 7.468 10.4063C8.32722 11.9133 8.85644 12.5269 9.27811 12.5269C9.35696 12.5264 9.43438 12.5058 9.503 12.467C10.0542 12.1627 9.95156 10.1973 9.92711 9.79156C9.92711 9.71456 9.92589 8.91278 9.64478 8.52778C9.44189 8.24911 9.09844 8.14278 8.89067 8.10244C8.97539 7.9857 9.08688 7.89098 9.21578 7.82622C9.59344 7.638 10.2742 7.61111 10.9513 7.61111H11.3278C12.0623 7.62089 12.253 7.66856 12.5182 7.73578C13.0548 7.86411 13.0658 8.21244 13.0181 9.398C13.0047 9.73533 12.99 10.1179 12.99 10.5664C12.99 10.663 12.9863 10.7693 12.9863 10.8793C12.9692 11.4856 12.9497 12.1712 13.3774 12.4523C13.4328 12.487 13.4967 12.5056 13.562 12.5061C13.7111 12.5061 14.1572 12.5061 15.366 10.432C15.8977 9.51655 16.3071 8.43611 16.3352 8.35544C16.3779 8.26823 16.4398 8.19177 16.5161 8.13178C16.5787 8.09926 16.6485 8.08288 16.719 8.08411H19.6218C19.9396 8.08411 20.1547 8.13178 20.195 8.25278C20.2647 8.44711 20.1816 9.03989 18.8554 10.8317L18.2651 11.6139C17.0624 13.1881 17.0624 13.2688 18.336 14.4641V14.4641Z"/>
+            </svg>
+          </a>
+          <a href="#">
+            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"
+                 class="footer__svg">
+              <path d="M20.5556 1.5H3.44444C2.1 1.5 1 2.6 1 3.94444V21.0556C1 22.4012 2.1 23.5 3.44444 23.5H12V14.9444H9.55556V11.9194H12V9.41389C12 6.769 13.4813 4.91122 16.6029 4.91122L18.8066 4.91367V8.09756H17.3436C16.1287 8.09756 15.6667 9.00933 15.6667 9.85511V11.9207H18.8053L18.1111 14.9444H15.6667V23.5H20.5556C21.9 23.5 23 22.4012 23 21.0556V3.94444C23 2.6 21.9 1.5 20.5556 1.5Z"/>
+            </svg>
+          </a>
+          <a href="https://t.me/itmoru">
+            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"
+                 class="footer__svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M4 1.5C2.34315 1.5 1 2.84315 1 4.5V20.5C1 22.1569 2.34315 23.5 4 23.5H20C21.6569 23.5 23 22.1569 23 20.5V4.5C23 2.84315 21.6569 1.5 20 1.5H4ZM3.7938 11.708L18.8525 5.59863C19.5396 5.27158 20.2038 5.77288 19.9414 6.88002L17.3772 19.5939C17.198 20.4982 16.6808 20.7126 15.9605 20.2953L12.0544 17.2598L10.1766 19.181C10.1695 19.1881 10.1626 19.1952 10.1557 19.2023C9.94617 19.4154 9.77252 19.5921 9.39432 19.5921L9.66101 15.3994L9.65931 15.3985H9.66101L16.9084 8.51706C17.226 8.22039 16.8396 8.07473 16.4166 8.34549L7.47142 14.2833L3.60524 13.0144C2.77204 12.7455 2.7661 12.1423 3.7938 11.708Z"/>
+            </svg>
+          </a>
+          <a href="#">
+            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"
+                 class="footer__svg">
+              <path d="M16.125 12.5C16.125 11.3542 15.724 10.3802 14.9219 9.57813C14.1198 8.77604 13.1458 8.375 12 8.375C10.8542 8.375 9.88021 8.77604 9.07813 9.57813C8.27604 10.3802 7.875 11.3542 7.875 12.5C7.875 13.6458 8.27604 14.6198 9.07813 15.4219C9.88021 16.224 10.8542 16.625 12 16.625C13.1458 16.625 14.1198 16.224 14.9219 15.4219C15.724 14.6198 16.125 13.6458 16.125 12.5ZM1 11.125V20.75C1 21.5091 1.26855 22.1572 1.80566 22.6943C2.34277 23.2314 2.99089 23.5 3.75 23.5H20.25C21.0091 23.5 21.6572 23.2314 22.1943 22.6943C22.7314 22.1572 23 21.5091 23 20.75V4.25C23 3.49089 22.7314 2.84277 22.1943 2.30566C21.6572 1.76855 21.0091 1.5 20.25 1.5H3.75C2.99089 1.5 2.34277 1.76855 1.80566 2.30566C1.26855 2.84277 1 3.49089 1 4.25V8.375H6.5C7.14453 7.52995 7.94662 6.86035 8.90625 6.36621C9.86589 5.87207 10.8971 5.625 12 5.625C13.1029 5.625 14.1341 5.87207 15.0937 6.36621C16.0534 6.86035 16.8555 7.52995 17.5 8.375H23V11.125H18.7461C18.832 11.5833 18.875 12.0417 18.875 12.5C18.875 13.7461 18.5671 14.8955 17.9512 15.9482C17.3353 17.001 16.501 17.8353 15.4482 18.4512C14.3955 19.0671 13.2461 19.375 12 19.375C10.7539 19.375 9.60449 19.0671 8.55176 18.4512C7.49902 17.8353 6.66471 17.001 6.04883 15.9482C5.43294 14.8955 5.125 13.7461 5.125 12.5C5.125 12.0417 5.16797 11.5833 5.25391 11.125H1Z"/>
+            </svg>
+          </a>
+          <a href="https://www.youtube.com/c/IfmoRu">
+            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"
+                 class="footer__svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M4 1.5C2.34315 1.5 1 2.84315 1 4.5V20.5C1 22.1569 2.34315 23.5 4 23.5H20C21.6569 23.5 23 22.1569 23 20.5V4.5C23 2.84315 21.6569 1.5 20 1.5H4ZM8.25 7.30385L18 12.5L8.25 17.6962V7.30385Z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <p class="footer__text footer__text_gray">Сделано студентами Яндекс. Практикума</p>
+  </div>
 </footer>
 </body>
 </html>
