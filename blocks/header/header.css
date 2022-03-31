@@ -1,0 +1,7 @@
+.header {
+  min-height: 80px;
+  max-width: 1440px;
+  display: flex;
+  margin: 0 auto;
+  background-color: #000D26;
+}
