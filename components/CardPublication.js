@@ -37,7 +37,7 @@ export default class CardPublication {
         this._cardContent = this._element.querySelector('.card-publication__text')
         this._cardLink = this._element.querySelector('.publication__link')
 
-        this._buttonSocial = this._element.querySelector('.publication__social')
+        this._buttonSocial = this._element.querySelector('.publication__social-button')
         this._boxSocial = this._element.querySelector('.share-publication')
 
         this._cardImage.src = this._image;

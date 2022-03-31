@@ -23,6 +23,8 @@
 .section__title {
 }
 .publication__slider {
+    padding: 15px;
+    margin: -15px;
 }
 .swiper-wrapper {
 }
@@ -135,7 +137,7 @@
     transform: translateY(-50%);
 }
 
-.publication__social {
+.publication__social-button {
     background-image: url("../../images/icon/share-icon.svg");
     width: 24px;
     height: 24px;

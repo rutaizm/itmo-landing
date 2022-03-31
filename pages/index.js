@@ -9,6 +9,16 @@ const publicationSlider = new Swiper('.publication__slider', {
     // loop: true,
     spaceBetween: 30,
 
+    threshold: 30,
+
+    preventInteractionOnTransition: true,
+    rewind: true,
+
+    grid: {
+        rows: 2,
+        fill: 'row',
+    },
+
     // If we need pagination
     pagination: {
         el: '.publication__slider-pagination',
