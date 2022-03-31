@@ -1,5 +1,5 @@
 .footer__div {
-    margin: 37px auto;
+    margin: 36px auto;
     display: grid;
     gap: 150px;
     grid-template-columns: 263px repeat(2, 95px) 206px;
