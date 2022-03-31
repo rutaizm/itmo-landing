@@ -1,0 +1,4 @@
+.footer__block_list {
+    grid-template-rows: 20px 1fr;
+    gap: 12px;
+}

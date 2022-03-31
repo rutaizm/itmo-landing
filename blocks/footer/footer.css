@@ -1,0 +1,10 @@
+.footer {
+    height: 578px;
+    padding: 3em;
+    background: #001337;
+    display: grid;
+    gap: 38px;
+    justify-content: center;
+    align-content: center;
+    grid-template-rows: 54px 263px 20px;
+}

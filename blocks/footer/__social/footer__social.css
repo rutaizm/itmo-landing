@@ -1,0 +1,7 @@
+.footer__social {
+    align-self: end;
+}
+
+.footer__social > a {
+    text-decoration: none;
+}
