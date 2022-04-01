@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 /.idea/itmo-landing.iml
 /.idea/modules.xml
 /.idea/vcs.xml
 .idea/
+=======
+.editorconfig
+/.idea
+>>>>>>> c1a96754c40e7243bef8c975d11c215c59df70cc

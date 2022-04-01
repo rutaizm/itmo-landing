@@ -10,4 +10,33 @@
 
 /* SECTION */
 @import url(../blocks/section/section.css);
+@import url(../blocks/section/_theme/section_theme_emerald.css);
+@import url(../blocks/section/_theme/section_theme_light-blue.css);
+@import url(../blocks/section/_theme/section_theme_dark-blue.css);
+@import url(../blocks/section/__container/section__container.css);
 @import url(../blocks/section/__title/section__title.css);
+@import url(../blocks/section/__text/section__text.css);
+
+/* EDUCATION */
+@import url(../blocks/education/education.css);
+@import url(../blocks/education/__cards-wrapper/education__cards-wrapper.css);
+@import url(../blocks/education/__card/education__card.css);
+@import url(../blocks/education/__card/_active/education__card_active.css);
+@import url(../blocks/education/__card-text/education__card-text.css);
+@import url(../blocks/education/__card-header/education__card-header.css);
+@import url(../blocks/education/__card-list/education__card-list.css);
+@import url(../blocks/education/__card-list-item/education__card-list-item.css);
+@import url(../blocks/education/__card-image/education__card-image.css);
+@import url(../blocks/education/__card-footer/education__card-footer.css);
+@import url(../blocks/education/__card-link/education__card-link.css);
+@import url(../blocks/education/__tab-bar/education__tab-bar.css);
+@import url(../blocks/education/__tab/education__tab.css);
+@import url(../blocks/education/__tab/_active/education__tab_active.css);
+@import url(../blocks/education/__tab-button/education__tab-button.css);
+
+/* CONTACTS */
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__input/_name/form__input_name.css);
+@import url(../blocks/form/__button/form__button.css);

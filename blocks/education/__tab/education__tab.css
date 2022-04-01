@@ -1,0 +1,17 @@
+.education__tab {
+  background-color: #e0f0ff;
+  border-radius: 10px;
+  color: #000d26;
+  font-size: 18px;
+  font-weight: 600;
+  width: 100%;
+  max-width: 280px;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.education__tab:first-of-type {
+  transform: translateX(15px);
+}

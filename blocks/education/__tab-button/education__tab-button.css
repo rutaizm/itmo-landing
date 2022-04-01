@@ -1,0 +1,9 @@
+.education__tab-button {
+  background-color: transparent;
+  border: 0;
+  color: inherit;
+  font-weight: inherit;
+  cursor: pointer;
+  padding: 15px 15px;
+  text-transform: uppercase;
+}

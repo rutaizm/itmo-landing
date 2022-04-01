@@ -1,0 +1,5 @@
+.education__card-list {
+  list-style-type: '\2022';
+  margin: 0 0 10px 0;
+  padding-left: 18px;
+}

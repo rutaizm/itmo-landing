@@ -1,0 +1,31 @@
+.education__card-link {
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000D26;
+  transition: 1.3 ease;
+}
+
+.education__card-link::after {
+  position: relative;
+  top: 0.45rem;
+  content: '';
+  display: inline-block;
+  background-image: url(../../../images/arrow-right.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  width: 24px;
+  height: 24px;
+  margin-left: 12px;
+}
+
+.education__card-link:hover,
+.education__card-link:active {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #000D26;
+}
+
+.education__card-link:hover::after {
+  margin-left: 16px;
+}
