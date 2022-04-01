@@ -1,0 +1,10 @@
+.footer__block_info {
+}
+
+.footer__block_info > p:first-of-type {
+  margin-bottom: 23px;
+}
+
+.footer__block_info > p:last-of-type {
+  margin: 0;
+}
