@@ -1,0 +1,14 @@
+.card {
+    min-height: 340px;
+    width: 348px;
+    border-radius: 10px;
+    background-color: rgba(224, 240, 255, 1);
+    padding: 20px 20px 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.card:nth-child(3) {
+    margin-left: 32px;
+    margin-right: 32px;
+}
