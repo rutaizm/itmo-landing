@@ -18,25 +18,50 @@
 
 .publication__wrapper {
     position: relative;
+    display: grid;
+    grid-template-columns: 60px 1fr 60px;
+    align-items: start;
+    column-gap: 16px;
+    margin: 0 -76px;
+    z-index: 50;
+}
+
+.publication__wrapper::after {
+    right: 0;
+}
+
+.publication__wrapper::before {
+    left: 0;
 }
 
 .section__title {
 }
 .publication__slider {
-    padding: 15px;
-    margin: -15px;
+    padding: 15px 76px 15px 15px;
+    margin: -15px -76px -15px -15px;
 }
 .swiper-wrapper {
 }
 .publication__cards {
-    /* display: grid;
-    grid-template-columns: repeat(3, 348px);
-    gap: 30px 33px; */
 }
 .swiper-slide {
 }
 .publication__card {
 }
+
+.publication__card_after::after {
+    right: -76px;
+    content: "";
+    position: absolute;
+    top: -15px;
+    height: calc(100% + 30px);
+    width: 60px;
+    background-color: pink;
+    background-color: #e0f0ff;
+    z-index: 50;
+    transition: all 0.3s;
+}
+
 .card-publication {
     /* max-width: 348px; */
     padding: 20px 0 0;
@@ -166,7 +191,7 @@
     height: 56px;
     position: absolute;
     background-color: #fff;
-    z-index: 10;
+    z-index: 60;
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -234,7 +259,6 @@
     justify-content: center;
     column-gap: 12px;
     bottom: -29px !important;
-    /* order: 999; */
 }
 
 .publication__pagination-bullet {
@@ -247,7 +271,6 @@
     opacity: 0.5;
     bottom: 0;
     left: 0px;
-    /* order: 999; */
 }
 
 .publication__pagination-bullet_active {
@@ -255,13 +278,10 @@
 }
 
 .publication__slider-button {
-    position: absolute;
     width: 60px;
     height: 60px;
-    top: 50%;
-    transform: translateY(-50%);
     border-radius: 50%;
-    z-index: 20;
+    z-index: 70;
     background-color: #fff;
     background-image: url("../../images/icon/black-arrow-icon.svg");
     background-position: center;
@@ -269,11 +289,13 @@
     background-size: 36px 36px;
     cursor: pointer;
     box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
+    align-self: center;
+    position: relative;
 }
+
 .publication__slider-button_next {
-    right: -76px;
 }
+
 .publication__slider-button_prev {
-    left: -76px;
-    transform: rotate(180deg) translateY(50%);
+    transform: rotate(180deg);
 }
