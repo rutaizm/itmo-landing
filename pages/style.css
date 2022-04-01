@@ -40,3 +40,20 @@
 @import url(../blocks/form/__input/form__input.css);
 @import url(../blocks/form/__input/_name/form__input_name.css);
 @import url(../blocks/form/__button/form__button.css);
+
+/* FOOTER */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__main-container/footer__main-container.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__text/_gray/footer__text_gray.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__title/_list/footer__title_list.css);
+@import url(../blocks/footer/__div/footer__div.css);
+@import url(../blocks/footer/__block/footer__block.css);
+@import url(../blocks/footer/__block/_info/footer__block_info.css);
+@import url(../blocks/footer/__block/_list/footer__block_list.css);
+@import url(../blocks/footer/__block/_contacts/footer__block_contacts.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__svg/footer__svg.css);
