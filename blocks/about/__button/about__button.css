@@ -1,0 +1,15 @@
+.about__button{
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    object-fit: cover;
+    background-position: center;
+    border-style: none;
+    align-self: center;
+    padding: 0;
+    margin-bottom: 38px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow: 0 4px 30px 0 rgba(224, 240, 255, 0.1);
+    cursor: pointer;
+}
