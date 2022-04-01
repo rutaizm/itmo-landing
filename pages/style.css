@@ -30,11 +30,13 @@
 @import url(../blocks/lab/__cards/lab__cards.css);
 @import url(../blocks/lab/__card-icon/lab__card-icon.css);
 @import url(../blocks/lab/__card-button/lab__card-button.css);
+@import url(../blocks/lab/__card-paragraph/lab__card-paragraph.css);
 @import url(../blocks/lab/__card-title/lab__card-title.css);
 @import url(../blocks/lab/__card/_project/lab__card_project.css);
 @import url(../blocks/lab/__card/_brain/lab__card_brain.css);
 @import url(../blocks/lab/__card/_micro/lab__card_micro.css);
 @import url(../blocks/lab/__card/_robot/lab__card_robot.css);
+
 
 /* EDUCATION */
 @import url(../blocks/education/education.css);
