@@ -4,13 +4,48 @@
 /* PAGE */
 @import url(../blocks/page/page.css);
 
+/* HEADER */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__menu-item/header__menu-item.css);
+@import url(../blocks/header/__menu-item/_active/header__menu-item_active.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-list/header__menu-list.css);
+@import url(../blocks/header/__menu-item-link/header__menu-item-link.css);
+
 /* HERO */
 @import url(../blocks/hero/__title/hero__title.css);
 @import url(../blocks/hero/__title/_lighter/hero__title_lighter.css);
 
 /* SECTION */
 @import url(../blocks/section/section.css);
+@import url(../blocks/section/_theme/section_theme_emerald.css);
+@import url(../blocks/section/_theme/section_theme_light-blue.css);
+@import url(../blocks/section/_theme/section_theme_dark-blue.css);
+@import url(../blocks/section/__container/section__container.css);
 @import url(../blocks/section/__title/section__title.css);
+@import url(../blocks/section/__text/section__text.css);
+
+/* EDUCATION */
+@import url(../blocks/education/education.css);
+
+
+/*ABOUT*/
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__list/about__list.css);
+@import url(../blocks/about/__text/about__text.css);
+@import url(../blocks/about/__button/about__button.css);
+@import url(../blocks/about/__button/_type_left/about__button_type_left.css);
+@import url(../blocks/about/__button/_type_right/about__button_type_right.css);
+
+
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__date/card__date.css);
+@import url(../blocks/card/__header/card__header.css);
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__image/card__image.css);
+
 
 /* PUBLICATION */
 @import url("../blocks/publication/publication.css");
@@ -46,3 +81,27 @@
 @import url("../blocks/share-publication/__social/_telegram/share-publication__social_telegram.css");
 @import url("../blocks/share-publication/__social/_instagram/share-publication__social_instargram.css");
 @import url("../blocks/share-publication/__social/_youtube/share-publication__social_youtube.css");
+
+/* CONTACTS */
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__input/_name/form__input_name.css);
+@import url(../blocks/form/__button/form__button.css);
+
+/* FOOTER */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__main-container/footer__main-container.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__text/_gray/footer__text_gray.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__title/_list/footer__title_list.css);
+@import url(../blocks/footer/__div/footer__div.css);
+@import url(../blocks/footer/__block/footer__block.css);
+@import url(../blocks/footer/__block/_info/footer__block_info.css);
+@import url(../blocks/footer/__block/_list/footer__block_list.css);
+@import url(../blocks/footer/__block/_contacts/footer__block_contacts.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__svg/footer__svg.css);
