@@ -1,0 +1,8 @@
+.lab__paragraph {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.44;
+}

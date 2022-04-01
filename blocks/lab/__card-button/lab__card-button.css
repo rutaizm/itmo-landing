@@ -1,0 +1,11 @@
+.lab__card-button {
+  border-radius: 10px;
+  cursor: pointer;
+  width: 215px;
+  height: 40px;
+  border: 1px solid #001337;
+  color: #001337;
+  line-height: 1.19;
+  font-weight: 400;
+  font-size: 0.875rem;
+}

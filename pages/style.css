@@ -17,6 +17,25 @@
 @import url(../blocks/section/__title/section__title.css);
 @import url(../blocks/section/__text/section__text.css);
 
+/* LAB */
+@import url(../blocks/lab/lab.css);
+@import url(../blocks/lab/__container/lab__container.css);
+@import url(../blocks/lab/__description/lab__description.css);
+@import url(../blocks/lab/__icon/lab__icon.css);
+@import url(../blocks/lab/__paragraph/lab__paragraph.css);
+@import url(../blocks/lab/__title/lab__title.css);
+@import url(../blocks/lab/__photos/lab__photos.css);
+@import url(../blocks/lab/__photo/lab__photo.css);
+@import url(../blocks/lab/__card/lab__card.css);
+@import url(../blocks/lab/__cards/lab__cards.css);
+@import url(../blocks/lab/__card-icon/lab__card-icon.css);
+@import url(../blocks/lab/__card-button/lab__card-button.css);
+@import url(../blocks/lab/__card-title/lab__card-title.css);
+@import url(../blocks/lab/__card/_project/lab__card_project.css);
+@import url(../blocks/lab/__card/_brain/lab__card_brain.css);
+@import url(../blocks/lab/__card/_micro/lab__card_micro.css);
+@import url(../blocks/lab/__card/_robot/lab__card_robot.css);
+
 /* EDUCATION */
 @import url(../blocks/education/education.css);
 

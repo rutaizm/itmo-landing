@@ -1,0 +1,7 @@
+.lab__cards {
+  display: grid;
+  display: grid;
+  grid-auto-rows: 450px;
+  grid-template-columns: repeat(4,1fr);
+  gap: 30px;
+}

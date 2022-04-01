@@ -1,0 +1,4 @@
+.lab__card_robot {
+  background-image: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url(../../../../../images/Background_l4.png);
+  background-size: cover;
+}

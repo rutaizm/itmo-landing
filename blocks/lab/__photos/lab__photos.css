@@ -1,0 +1,5 @@
+.lab__photos {
+  display: flex;
+  flex-direction: row;
+  max-width: 540px;
+}
