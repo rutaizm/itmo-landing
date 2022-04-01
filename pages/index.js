@@ -7,7 +7,6 @@ const publicationSlider = new Swiper('.publication__slider', {
     slidesPerView: 3,
     slidesPerGroup: 3,
     speed: 700,
-    // loop: true,
     spaceBetween: 30,
 
     threshold: 5,
@@ -25,6 +24,7 @@ const publicationSlider = new Swiper('.publication__slider', {
         el: '.publication__slider-pagination',
         bulletClass: 'publication__pagination-bullet',
         bulletActiveClass: 'publication__pagination-bullet_active',
+        clickable: true,
     },
 
     // Navigation arrows
