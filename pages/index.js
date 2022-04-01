@@ -1,6 +1,7 @@
 import CardPublication from "../components/CardPublication.js";
 import PsevdoElement from "../components/PsevdoElement.js";
 import { publicationCards } from "../utils/publicationCards.js";
+import { cardContainer } from "../utils/constants.js";
 
 const publicationSlider = new Swiper('.publication__slider', {
     // Optional parameters
@@ -34,10 +35,7 @@ const publicationSlider = new Swiper('.publication__slider', {
     },
 });
 
-
-const cardContainer = document.querySelector('.publication__cards')
-
-
+// Переделается в класс Section
 function renderPublicationCards() {
     publicationCards.forEach(card => {
         const cardElement = new CardPublication(card, '#tempCardPublication').generateCard()

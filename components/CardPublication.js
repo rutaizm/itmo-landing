@@ -1,6 +1,5 @@
 export default class CardPublication {
     constructor({ id, image, title, author, content, link }, tempCardSelector) {
-        // this._dataCard = dataCard;
         this._tempCardSelector = tempCardSelector;
         this._id = id;
         this._image = image;
@@ -21,7 +20,6 @@ export default class CardPublication {
     _setEventListeners() {
         this._buttonSocial.addEventListener('click', () => {
             this._boxSocial.classList.toggle('share-publication_active')
-
         })
 
         this._element.addEventListener('mouseleave', () => {
@@ -33,8 +31,6 @@ export default class CardPublication {
         this._shareVkButton = this._element.querySelector('.share-publication__social_vk')
         this._shareFacebookButton = this._element.querySelector('.share-publication__social_facebook')
         this._shareTelegramButton = this._element.querySelector('.share-publication__social_telegram')
-        // this._shareVkButton = this._element.querySelector('.share-publication__social_vk')
-        // this._shareVkButton = this._element.querySelector('.share-publication__social_vk')
 
         this._windowParams = `width=650,height=570, left=${String(window.innerWidth / 2 - 650 / 2)}, top=${String(window.innerHeight / 2 - 570 / 2)}`
 
@@ -49,8 +45,6 @@ export default class CardPublication {
         this._shareTelegramButton.addEventListener('click', () => {
             window.open(`https://t.me/share/url?url=${this._link}&text=${this._title}`, "Telegram", this._windowParams)
         })
-
-
     }
 
     generateCard() {
@@ -58,11 +52,11 @@ export default class CardPublication {
 
         this._cardImage = this._element.querySelector('.card-publication__image')
         this._cardTitle = this._element.querySelector('.card-publication__title');
-        this._cardAuthor = this._element.querySelector('.card-publication__users');
+        this._cardAuthor = this._element.querySelector('.card-publication__author');
         this._cardContent = this._element.querySelector('.card-publication__text')
-        this._cardLink = this._element.querySelector('.publication__link')
+        this._cardLink = this._element.querySelector('.card-publication__link')
 
-        this._buttonSocial = this._element.querySelector('.publication__social-button')
+        this._buttonSocial = this._element.querySelector('.card-publication__social-button')
         this._boxSocial = this._element.querySelector('.share-publication')
 
         this._cardImage.src = this._image;
@@ -77,5 +71,3 @@ export default class CardPublication {
         return this._element
     }
 }
-
-

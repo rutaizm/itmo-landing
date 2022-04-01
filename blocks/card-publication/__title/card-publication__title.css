@@ -1,0 +1,11 @@
+.card-publication__title {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 4px;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

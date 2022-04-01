@@ -1,0 +1,9 @@
+.publication__wrapper {
+    display: grid;
+    grid-template-columns: 60px 1fr 60px;
+    align-items: start;
+    column-gap: 16px;
+    margin: 0 -76px;
+    position: relative;
+    z-index: 50;
+}

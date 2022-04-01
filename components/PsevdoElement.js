@@ -27,14 +27,14 @@ export default class PsevdoElement {
             if (i + 1 === this._findCardsAfter()[0] ||
                 i + 1 === this._findCardsAfter()[1]
             ) {
-                card.classList.add('publication__card_after')
+                card.classList.add('card-publication_after')
             }
         })
     }
 
     _removePsevdoElement() {
         this._cards.forEach(card => {
-            card.classList.remove('publication__card_after')
+            card.classList.remove('card-publication_after')
         })
     }
 
