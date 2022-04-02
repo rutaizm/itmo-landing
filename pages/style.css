@@ -46,6 +46,21 @@
 
 /* TEAM */
 @import url("../blocks/team/team.css");
+@import url("../blocks/team/__container/team__container.css");
+@import url("../blocks/team/__wrapper/team__wrapper.css");
+@import url("../blocks/team/__slider-button/team__slider-button.css");
+@import url("../blocks/team/__slider-button/_prev/team__slider-button_prev.css");
+@import url("../blocks/team/__slider-pagination/team__slider-pagination.css");
+@import url("../blocks/team/__pagination-bullet/team__pagination-bullet.css");
+@import url("../blocks/team/__pagination-bullet/_active/team__pagination-bullet_active.css");
+@import url("../blocks/team/__slider/team__slider.css");
+
+/* CARD TEAM */
+
+@import url("../blocks/card-team/card-team.css");
+@import url("../blocks/card-team/__image/card-team__image.css");
+@import url("../blocks/card-team/__name/card-team__name.css");
+@import url("../blocks/card-team/__about/card-team__about.css");
 
 /* CONTACTS */
 @import url(../blocks/contacts/contacts.css);

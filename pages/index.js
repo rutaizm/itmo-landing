@@ -29,7 +29,6 @@ const teamCardsContainer = document.querySelector('.team__cards')
 
 // Переделается в класс Section
 function renderTeamCards() {
-    console.log(teamCards);
     teamCards.forEach(card => {
         const cardElement = new CardTeam(card, '#tempCardTeam').generateCard()
         teamCardsContainer.append(cardElement)

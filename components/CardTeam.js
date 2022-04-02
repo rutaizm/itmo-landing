@@ -33,8 +33,6 @@ export default class CardTeam {
         this._cardName.innerHTML = this._formatName();
         this._cardAbout.textContent = this._about;
 
-
-
         return this._element
     }
 }
