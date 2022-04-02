@@ -1,0 +1,6 @@
+.education__card_active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  visibility: visible;
+}
