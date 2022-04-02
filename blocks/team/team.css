@@ -12,25 +12,74 @@
     box-sizing: border-box;
 }
 .team {
+    background-color: #001337;
+    padding-bottom: 150px;
 }
 .team__container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .team__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 0 -76px;
+    position: relative;
 }
 .team__slider-button {
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: transparent;
+    background-image: url("../../images/right-white-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 36px 36px;
+    box-shadow: 0px 4px 30px rgba(224, 240, 255, 0.1);
+    cursor: pointer;
 }
 .team__slider-button_prev {
+    transform: rotate(180deg);
+}
+.team__slider-button_next {
 }
 .team__slider-pagination {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    column-gap: 12px;
+    bottom: -38px !important;
 }
+
+.team__pagination-bullet {
+    position: relative;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #e0f0ff;
+    opacity: 0.5;
+    bottom: 0;
+    left: 0px;
+    cursor: pointer;
+}
+
+.team__pagination-bullet_active {
+    opacity: 1;
+    cursor: default;
+}
+
 .swiper {
 }
 .team__slider {
+    /* padding: 15px;
+    margin: -15px; */
 }
 .swiper-wrapper {
 }
 .team__cards {
-    padding: 50px;
 }
 .team-card {
 }
@@ -61,6 +110,4 @@
     text-align: center;
     color: #009fac;
     margin: 0;
-}
-.team__slider-button_next {
 }
