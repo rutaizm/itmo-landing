@@ -4,6 +4,7 @@ import CardPublication from "../components/CardPublication.js";
 import PsevdoElement from "../components/PsevdoElement.js";
 import { publicationCards } from "../utils/publicationCards.js";
 import { cardContainer } from "../utils/constants.js";
+import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
 
 const teamCardsContainer = document.querySelector('.team__cards')
 
