@@ -1,4 +1,4 @@
-export const publicationCards = [
+export const teamCards = [
     {
         id: 1,
         image: '../images/team/Bobtsov.png',

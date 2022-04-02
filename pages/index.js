@@ -1,4 +1,5 @@
-
+import CardTeam from "../components/CardTeam.js";
+import { teamCards } from "../utils/teamCards.js"
 
 const teamSlider = new Swiper('.team__slider', {
     // Optional parameters
@@ -23,3 +24,16 @@ const teamSlider = new Swiper('.team__slider', {
         prevEl: '.team__slider-button_prev',
     },
 });
+
+const teamCardsContainer = document.querySelector('.team__cards')
+
+// Переделается в класс Section
+function renderTeamCards() {
+    console.log(teamCards);
+    teamCards.forEach(card => {
+        const cardElement = new CardTeam(card, '#tempCardTeam').generateCard()
+        teamCardsContainer.append(cardElement)
+    })
+}
+
+renderTeamCards()

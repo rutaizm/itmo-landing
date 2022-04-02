@@ -92,10 +92,10 @@
 }
 .card-team__image {
     margin-bottom: 16px;
-}
-.card-team__image > img {
     width: 100%;
+    border-radius: 10px;
 }
+
 .card-team__name {
     font-size: 18px;
     line-height: 30px;
