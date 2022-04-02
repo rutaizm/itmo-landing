@@ -60,6 +60,42 @@
 @import url(../blocks/card/__text/card__text.css);
 @import url(../blocks/card/__image/card__image.css);
 
+
+/* PUBLICATION */
+@import url("../blocks/publication/publication.css");
+@import url("../blocks/publication/__container/publication__container.css");
+@import url("../blocks/publication/__wrapper/publication__wrapper.css");
+@import url("../blocks/publication/__slider/publication__slider.css");
+@import url("../blocks/publication/__slider-pagination/publication__slider-pagination.css");
+@import url("../blocks/publication/__pagination-bullet/publication__pagination-bullet.css");
+@import url("../blocks/publication/__pagination-bullet/_active/publication__pagination-bullet_active.css");
+@import url("../blocks/publication/__slider-button/publication__slider-button.css");
+@import url("../blocks/publication/__slider-button/_prev/publication__slider-button_prev.css");
+
+/* CARD PUBLICATION */
+@import url("../blocks/card-publication/card-publication.css");
+@import url("../blocks/card-publication/_after/card-publication_after.css");
+@import url("../blocks/card-publication/__image-box/card-publication__image-box.css");
+@import url("../blocks/card-publication/__image/card-publication__image.css");
+@import url("../blocks/card-publication/__content/card-publication__content.css");
+@import url("../blocks/card-publication/__title/card-publication__title.css");
+@import url("../blocks/card-publication/__author/card-publication__author.css");
+@import url("../blocks/card-publication/__text/card-publication__text.css");
+@import url("../blocks/card-publication/__bottom/card-publication__bottom.css");
+@import url("../blocks/card-publication/__link/card-publication__link.css");
+@import url("../blocks/card-publication/__social-button/card-publication__social-button.css");
+
+/* SHARE PUBLICATION */
+
+@import url("../blocks/share-publication/share-publication.css");
+@import url("../blocks/share-publication/_active/share-publication_active.css");
+@import url("../blocks/share-publication/__social/share-publication__social.css");
+@import url("../blocks/share-publication/__social/_vk/share-publication__social_vk.css");
+@import url("../blocks/share-publication/__social/_facebook/share-publication__social_facebook.css");
+@import url("../blocks/share-publication/__social/_telegram/share-publication__social_telegram.css");
+@import url("../blocks/share-publication/__social/_instagram/share-publication__social_instargram.css");
+@import url("../blocks/share-publication/__social/_youtube/share-publication__social_youtube.css");
+
 /* CONTACTS */
 @import url(../blocks/contacts/contacts.css);
 @import url(../blocks/form/form.css);

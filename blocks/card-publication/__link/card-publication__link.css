@@ -1,0 +1,23 @@
+.card-publication__link {
+    display: block;
+    padding: 5px;
+    padding-right: 41px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+}
+
+.card-publication__link::after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background-image: url("../../../images/icon/arrow-icon.svg");
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+}
