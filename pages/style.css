@@ -30,7 +30,6 @@
 /* EDUCATION */
 @import url(../blocks/education/education.css);
 
-
 /*ABOUT*/
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__list/about__list.css);
@@ -39,12 +38,14 @@
 @import url(../blocks/about/__button/_type_left/about__button_type_left.css);
 @import url(../blocks/about/__button/_type_right/about__button_type_right.css);
 
-
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__date/card__date.css);
 @import url(../blocks/card/__header/card__header.css);
 @import url(../blocks/card/__text/card__text.css);
 @import url(../blocks/card/__image/card__image.css);
+
+/* TEAM */
+@import url("../blocks/team/team.css");
 
 /* CONTACTS */
 @import url(../blocks/contacts/contacts.css);

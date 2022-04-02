@@ -1,0 +1,66 @@
+.section {
+}
+.section_theme_light-blue {
+}
+.publications {
+}
+.section__container {
+}
+.section__title {
+}
+.team * {
+    box-sizing: border-box;
+}
+.team {
+}
+.team__container {
+}
+.team__wrapper {
+}
+.team__slider-button {
+}
+.team__slider-button_prev {
+}
+.team__slider-pagination {
+}
+.swiper {
+}
+.team__slider {
+}
+.swiper-wrapper {
+}
+.team__cards {
+    padding: 50px;
+}
+.team-card {
+}
+.card-team {
+    max-width: 255px;
+    padding: 20px 20px 30px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
+    border-radius: 10px;
+}
+.card-team__image {
+    margin-bottom: 16px;
+}
+.card-team__image > img {
+    width: 100%;
+}
+.card-team__name {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 0 4px;
+}
+.card-team__about {
+    font-size: 14px;
+    line-height: 19px;
+    font-style: italic;
+    text-align: center;
+    color: #009fac;
+    margin: 0;
+}
+.team__slider-button_next {
+}
