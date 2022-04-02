@@ -1,4 +1,2 @@
-/.idea/itmo-landing.iml
-/.idea/modules.xml
-/.idea/vcs.xml
-.idea/
+.editorconfig
+/.idea

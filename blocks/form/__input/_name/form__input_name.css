@@ -1,0 +1,23 @@
+.form__input_name_name {
+  grid-area: name;
+}
+
+.form__input_name_surname {
+  grid-area: surname;
+}
+
+.form__input_name_message {
+  grid-area: message;
+}
+
+.form__input_name_phone {
+  grid-area: phone;
+}
+
+.form__input_name_email {
+  grid-area: email;
+}
+
+.form__input_name_button {
+  grid-area: button;
+}
