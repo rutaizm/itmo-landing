@@ -153,15 +153,19 @@
       </ul>
     </div>
   </section>
-  <section class="section section_theme_light-blue">
-    <div class="publications section__container">
+  <section class="section publication section_theme_light-blue" id="Publications">
+    <div class="publication__container">
       <h2 class="section__title">Публикации</h2>
-    </div>    
-  </section>
-  <section class="section section_theme_light-blue" id="Publications">
-    <div class="publications section__container">
-      <h2 class="section__title">Публикации</h2>
-    </div>
+      <div class="publication__wrapper">
+        <div class="publication__slider-button publication__slider-button_prev"></div>
+        <div class="publication__slider-pagination">
+        </div>
+        <div class="swiper publication__slider">
+          <div class="swiper-wrapper publication__cards">
+          </div>
+        </div>
+        <div class="publication__slider-button publication__slider-button_next"></div>
+      </div>
   </section>
   <section class="section" id="Team">
     <div class="team">
@@ -373,16 +377,39 @@
   </footer>
 
 
-  <template id="tempCardTeam">
+<template id="tempCardTeam">
     <div class="swiper-slide team-card card-team">
       <img class="card-team__image">
       <p class="card-team__name"></p>
       <p class="card-team__about"></p>
+    </div>
+</template>
+
+<template id="tempCardPublication">
+    <div class="swiper-slide publication__card card-publication">
+      <div class="card-publication__image-box">
+        <img class="card-publication__image">
+      </div>
+      <div class="card-publication__content">
+        <h4 class="card-publication__title"></h4>
+        <p class="card-publication__author"></p>
+        <p class="card-publication__text"></p>
+      </div>
+      <div class="card-publication__bottom">
+        <a class="card-publication__link">Читать полностью</a>
+        <div class="card-publication__social-button"></div>
+        <ul class="card-publication__share share-publication">
+          <li class="share-publication__social share-publication__social_vk"></li>
+          <li class="share-publication__social share-publication__social_facebook"></li>
+          <li class="share-publication__social share-publication__social_telegram"></li>
+          <li class="share-publication__social share-publication__social_instargram"></li>
+          <li class="share-publication__social share-publication__social_youtube"></li>
+        </ul>
+      </div>
     </div>
   </template>
 
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script type="module" src="./pages/index.js"></script>
 </body>
-
 </html>
