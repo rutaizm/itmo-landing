@@ -1,0 +1,7 @@
+.publication__slider-pagination {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    column-gap: 12px;
+    bottom: -29px !important;
+}

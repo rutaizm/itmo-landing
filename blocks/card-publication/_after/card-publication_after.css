@@ -1,0 +1,12 @@
+.card-publication_after::after {
+    right: -76px;
+    content: "";
+    position: absolute;
+    top: -15px;
+    height: calc(100% + 30px);
+    width: 60px;
+    /* background-color: pink; */
+    background-color: #e0f0ff;
+    z-index: 50;
+    transition: all 0.3s;
+}
