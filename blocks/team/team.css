@@ -1,0 +1,7 @@
+.team * {
+    box-sizing: border-box;
+}
+.team {
+    background-color: #001337;
+    padding-bottom: 150px;
+}

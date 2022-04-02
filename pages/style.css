@@ -44,7 +44,6 @@
 @import url(../blocks/education/__tab/_active/education__tab_active.css);
 @import url(../blocks/education/__tab-button/education__tab-button.css);
 
-
 /*ABOUT*/
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__list/about__list.css);
@@ -53,13 +52,11 @@
 @import url(../blocks/about/__button/_type_left/about__button_type_left.css);
 @import url(../blocks/about/__button/_type_right/about__button_type_right.css);
 
-
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__date/card__date.css);
 @import url(../blocks/card/__header/card__header.css);
 @import url(../blocks/card/__text/card__text.css);
 @import url(../blocks/card/__image/card__image.css);
-
 
 /* PUBLICATION */
 @import url("../blocks/publication/publication.css");
@@ -95,6 +92,24 @@
 @import url("../blocks/share-publication/__social/_telegram/share-publication__social_telegram.css");
 @import url("../blocks/share-publication/__social/_instagram/share-publication__social_instargram.css");
 @import url("../blocks/share-publication/__social/_youtube/share-publication__social_youtube.css");
+
+/* TEAM */
+@import url("../blocks/team/team.css");
+@import url("../blocks/team/__container/team__container.css");
+@import url("../blocks/team/__wrapper/team__wrapper.css");
+@import url("../blocks/team/__slider-button/team__slider-button.css");
+@import url("../blocks/team/__slider-button/_prev/team__slider-button_prev.css");
+@import url("../blocks/team/__slider-pagination/team__slider-pagination.css");
+@import url("../blocks/team/__pagination-bullet/team__pagination-bullet.css");
+@import url("../blocks/team/__pagination-bullet/_active/team__pagination-bullet_active.css");
+@import url("../blocks/team/__slider/team__slider.css");
+
+/* CARD TEAM */
+
+@import url("../blocks/card-team/card-team.css");
+@import url("../blocks/card-team/__image/card-team__image.css");
+@import url("../blocks/card-team/__name/card-team__name.css");
+@import url("../blocks/card-team/__about/card-team__about.css");
 
 /* CONTACTS */
 @import url(../blocks/contacts/contacts.css);
