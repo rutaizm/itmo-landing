@@ -1,0 +1,10 @@
+.share-publication__social {
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    padding: 5px;
+    background-size: 22px 22px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}

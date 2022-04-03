@@ -1,0 +1,11 @@
+.card-team__about {
+    font-size: 14px;
+    line-height: 19px;
+    font-style: italic;
+    text-align: center;
+    color: #009fac;
+    margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
