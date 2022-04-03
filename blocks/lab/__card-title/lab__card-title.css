@@ -1,6 +1,18 @@
 .lab__card-title {
-  font-size: 1.125rem;
   font-weight: 600;
-  line-height: 1.67;
-  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 0 5px 0;
+}
+@media screen and (max-width: 1000px) {
+  .lab__card-title {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .lab__card-title {
+    font-size: 10px;
+    line-height: 14px;
+  }
 }

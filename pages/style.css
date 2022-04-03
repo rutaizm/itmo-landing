@@ -20,8 +20,8 @@
 /* LAB */
 @import url(../blocks/lab/lab.css);
 @import url(../blocks/lab/__container/lab__container.css);
+@import url(../blocks/lab/__alignment/lab__alignment.css);
 @import url(../blocks/lab/__description/lab__description.css);
-@import url(../blocks/lab/__icon/lab__icon.css);
 @import url(../blocks/lab/__paragraph/lab__paragraph.css);
 @import url(../blocks/lab/__title/lab__title.css);
 @import url(../blocks/lab/__photos/lab__photos.css);

@@ -1,0 +1,8 @@
+.lab__alignment {
+  padding-right: 36px;
+}
+@media screen and (max-width: 1439px) {
+  .lab__alignment {
+    padding: 0;
+  }
+}

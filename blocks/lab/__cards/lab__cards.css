@@ -1,8 +1,18 @@
 .lab__cards {
   display: grid;
-  display: grid;
   grid-auto-rows: 430px;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 30px;
-  padding-left: 36px;
+}
+@media screen and (max-width: 1000px) {
+  .lab__cards {
+    grid-auto-rows: 242px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .lab__cards {
+    grid-auto-rows: 224px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
 }

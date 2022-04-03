@@ -1,6 +1,20 @@
 .lab__title {
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.6;
-  margin: 0 0 13px 36px;
+  line-height: 30px;
+  margin: 0 0 25px 0;
+}
+@media screen and (max-width: 1050px) {
+  .lab__title {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .lab__title {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 20px 0;
+  }
 }

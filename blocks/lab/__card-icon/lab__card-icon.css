@@ -1,4 +1,8 @@
 .lab__card-icon {
-  width: 100px;
-  height: 100px;
+  width: calc(100% / 2);
+}
+@media screen and (max-width: 620px) {
+  .lab__card-icon {
+    width: 60px;
+  }
 }
