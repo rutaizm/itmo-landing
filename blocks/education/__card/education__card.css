@@ -1,0 +1,11 @@
+.education__card {
+  letter-spacing: 0.1px;
+  display: grid;
+  grid-template-columns: minmax(340px, 635px) minmax(280px, 445px);
+  grid-column-gap: 30px;
+  padding: 30px;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: -100%;
+}
