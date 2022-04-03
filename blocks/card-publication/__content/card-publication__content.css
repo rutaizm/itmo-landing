@@ -1,0 +1,10 @@
+.card-publication__content {
+    padding: 0 20px 30px;
+    color: #000d26;
+    background-color: #fff;
+    transition: all 0.5s;
+    position: relative;
+    z-index: 2;
+    border-radius: 0 0 10px 10px;
+    height: 285px;
+}

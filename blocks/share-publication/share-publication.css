@@ -1,0 +1,33 @@
+.share-publication {
+    width: 184px;
+    height: 56px;
+    position: absolute;
+    background-color: #fff;
+    z-index: 60;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 0;
+    filter: drop-shadow(0px 4px 20px rgba(73, 111, 168, 0.15));
+    top: -63px;
+    right: -63px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+
+.share-publication::before {
+    content: "";
+    position: absolute;
+    background-image: url("../../images/icon/triangle.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 50%;
+    bottom: -7px;
+    transform: translateX(-50%);
+    z-index: 100;
+    width: 16px;
+    height: 8px;
+}
