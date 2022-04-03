@@ -4,6 +4,10 @@ import CardPublication from "../components/CardPublication.js";
 import PsevdoElement from "../components/PsevdoElement.js";
 import { publicationCards } from "../utils/publicationCards.js";
 import { cardContainer } from "../utils/constants.js";
+<<<<<<< HEAD
+=======
+import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
+>>>>>>> 2c0d81f5a05f750c77a3ffbc9c2f131dbc6195ac
 
 const teamCardsContainer = document.querySelector('.team__cards')
 
@@ -21,9 +25,17 @@ const teamSlider = new Swiper('.team__slider', {
         el: '.team__slider-pagination',
         bulletClass: 'team__pagination-bullet',
         bulletActiveClass: 'team__pagination-bullet_active',
+<<<<<<< HEAD
       clickable: true,
       },
       navigation: {
+=======
+        clickable: true,
+    },
+
+    // Navigation arrows
+    navigation: {
+>>>>>>> 2c0d81f5a05f750c77a3ffbc9c2f131dbc6195ac
         nextEl: '.team__slider-button_next',
         prevEl: '.team__slider-button_prev',
     },
@@ -59,7 +71,10 @@ const publicationSlider = new Swiper('.publication__slider', {
     },
 });
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2c0d81f5a05f750c77a3ffbc9c2f131dbc6195ac
 // Переделается в класс Section
 function renderTeamCards() {
     teamCards.forEach(card => {
@@ -82,6 +97,7 @@ renderPublicationCards()
 // ----------------------------------
 
 new PsevdoElement(publicationSlider, '.publication__card', 6).enabled()
+<<<<<<< HEAD
 
 // publicationSlider.on('sliderMove', (touchmove) => {
 //     console.log("событие sliderMove");
@@ -101,3 +117,5 @@ new PsevdoElement(publicationSlider, '.publication__card', 6).enabled()
 // publicationSlider.on('transitionEnd', () => {
 //     console.log("событие transitionEnd");
 // })
+=======
+>>>>>>> 2c0d81f5a05f750c77a3ffbc9c2f131dbc6195ac

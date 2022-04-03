@@ -1,25 +1,6 @@
-<<<<<<< HEAD
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
 /.idea/itmo-landing.iml
 /.idea/modules.xml
 /.idea/vcs.xml
 .idea/
-||||||||| c36b16d
-=========
-=======
-/.idea/itmo-landing.iml
-/.idea/modules.xml
-/.idea/vcs.xml
-.idea/
-=======
->>>>>>> 681f8e8654553dffa9832c11152ca4d26fef2d5f
 .editorconfig
-<<<<<<< HEAD
 /.idea
-||||||| merged common ancestors
-/.idea
->>>>>>>>> Temporary merge branch 2
-=======
-/.idea
->>>>>>> 681f8e8654553dffa9832c11152ca4d26fef2d5f
