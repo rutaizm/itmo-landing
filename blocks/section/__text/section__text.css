@@ -6,3 +6,17 @@
   letter-spacing: 0.1px;
   margin: 0 auto;
 }
+
+@media (max-width: 800px) {
+  .section__text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .section__text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
