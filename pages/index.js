@@ -10,12 +10,47 @@ const teamCardsContainer = document.querySelector('.team__cards')
 
 const teamSlider = new Swiper('.team__slider', {
     // Optional parameters
-    // loop: true,
+    loop: false,
     spaceBetween: 30,
-    slidesPerView: 4,
-    threshold: 5,
     preventInteractionOnTransition: true,
     rewind: true,
+    grabCursor: true,
+
+    breakpoints: {
+        1220: {
+            slidesPerView: 4,
+        },
+
+        930: {
+            slidesPerView: 3,
+        },
+
+        769: {
+            slidesPerView: 2,
+        },
+
+        720: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+
+        685: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+        },
+
+        481: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+            loop: false,
+        },
+
+        320: {
+            slidesPerView: 2,
+            spaceBetween: 8,
+            loop: true,
+        }
+    },
 
     // If we need pagination
     pagination: {

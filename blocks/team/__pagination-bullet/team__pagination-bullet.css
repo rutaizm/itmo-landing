@@ -10,3 +10,10 @@
     left: 0;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .team__pagination-bullet {
+        width: calc(4px + (8 - 4) * ((100vw - 320px) / (768 - 320)));
+        height: calc(4px + (8 - 4) * ((100vw - 320px) / (768 - 320)));
+    }
+}
