@@ -5,3 +5,10 @@
     color: #FFFFFF;
     margin: 0 0 12px 0;
 }
+
+@media (max-width: 768px) {
+    .footer__title {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
