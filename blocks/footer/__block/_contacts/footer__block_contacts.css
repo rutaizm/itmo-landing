@@ -5,3 +5,9 @@
 .footer__block_contacts > div:first-of-type {
   margin: 0 0 8px 0;
 }
+
+@media (max-width: 768px) {
+  .footer__block_contacts {
+    margin-top: 40px;
+  }
+}

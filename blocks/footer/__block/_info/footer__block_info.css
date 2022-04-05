@@ -9,3 +9,9 @@
 .footer__block_info > p:last-of-type {
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .footer__block_info {
+    max-width: 241px;
+  }
+}
