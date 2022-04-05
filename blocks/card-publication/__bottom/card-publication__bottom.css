@@ -11,3 +11,16 @@
     justify-content: space-between;
     padding: 0 20px;
 }
+
+@media (max-width: 1440px) {
+    .card-publication__bottom  {
+        height: calc(60px + (70 - 60) * ((100vw - 768px) / (1440 - 768)));;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-publication__bottom  {
+        position: relative;
+        height: calc(44px + (60 - 44) * ((100vw - 320px) / (768 - 320)));;
+    }
+}

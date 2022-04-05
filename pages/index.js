@@ -1,7 +1,6 @@
 import CardTeam from "../components/CardTeam.js";
 import { teamCards } from "../utils/teamCards.js"
 import CardPublication from "../components/CardPublication.js";
-import PsevdoElement from "../components/PsevdoElement.js";
 import { publicationCards } from "../utils/publicationCards.js";
 import { cardContainer } from "../utils/constants.js";
 import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
@@ -34,17 +33,61 @@ const teamSlider = new Swiper('.team__slider', {
 
 const publicationSlider = new Swiper('.publication__slider', {
     // Optional parameters
-    slidesPerView: 3,
-    slidesPerGroup: 3,
     speed: 700,
     spaceBetween: 30,
     threshold: 5,
     preventInteractionOnTransition: true,
     rewind: true,
 
-    grid: {
-        rows: 2,
-        fill: 'row',
+    breakpoints: {
+        1150: {
+            slidesPerView: 3,
+            slidesPerGroup: 3,
+            grid: {
+                rows: 2,
+                fill: 'row',
+            },
+        },
+
+        720: {
+            slidesPerView: 2,
+            slidesPerGroup: 2,
+            spaceBetween: 30,
+            grid: {
+                rows: 2,
+                fill: 'row',
+            },
+        },
+
+        685: {
+            slidesPerView: 2,
+            slidesPerGroup: 2,
+            spaceBetween: 20,
+            grid: {
+                rows: 1,
+                fill: 'row',
+            },
+        },
+
+        481: {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            spaceBetween: 15,
+            grid: {
+                rows: 1,
+                fill: 'row',
+            },
+        },
+
+        320: {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            spaceBetween: 8,
+            grid: {
+                rows: 1,
+                fill: 'row',
+            },
+        }
     },
 
     // If we need pagination
@@ -80,7 +123,3 @@ function renderPublicationCards() {
 
 renderTeamCards()
 renderPublicationCards()
-
-// ----------------------------------
-
-new PsevdoElement(publicationSlider, '.publication__card', 6).enabled()
