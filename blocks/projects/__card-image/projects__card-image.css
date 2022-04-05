@@ -1,0 +1,9 @@
+.projects__card-image {
+  margin-bottom: 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.projects__card:hover > .projects__card-image {
+  filter: invert(100%);
+}

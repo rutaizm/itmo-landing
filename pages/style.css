@@ -4,6 +4,10 @@
 /* PAGE */
 @import url(../blocks/page/page.css);
 
+/* ARROW */
+@import url(../blocks/arrow/_previous/arrow_previous.css);
+@import url(../blocks/arrow/_next/arrow_next.css);
+
 /* HEADER */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__container/header__container.css);
@@ -26,6 +30,22 @@
 @import url(../blocks/section/__container/section__container.css);
 @import url(../blocks/section/__title/section__title.css);
 @import url(../blocks/section/__text/section__text.css);
+
+/* PROJECTS */
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__tabs-list/projects__tabs-list.css);
+@import url(../blocks/projects/__tab-item/projects__tab-item.css);
+@import url(../blocks/projects/__tab-item/_active/projects__tab-item_active.css);
+@import url(../blocks/projects/__tab-link/projects__tab-link.css);
+@import url(../blocks/projects/__cards-container/projects__cards-container.css);
+@import url(../blocks/projects/__card/projects__card.css);
+@import url(../blocks/projects/__card-image/projects__card-image.css);
+@import url(../blocks/projects/__card-text/projects__card-text.css);
+@import url(../blocks/projects/__card-footer/projects__card-footer.css);
+@import url(../blocks/projects/__card-link/projects__card-link.css);
+@import url(../blocks/projects/__pagination/projects__pagination.css);
+@import url(../blocks/projects/__pagination-arrow/projects__pagination-arrow.css);
+@import url(../blocks/projects/__pagination-pages/projects__pagination-pages.css);
 
 /* EDUCATION */
 @import url(../blocks/education/education.css);
