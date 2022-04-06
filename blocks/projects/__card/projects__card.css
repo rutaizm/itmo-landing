@@ -1,18 +1,23 @@
 .projects__card {
+  box-sizing: border-box;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  z-index: 5;
   background-color: #009fac;
+  min-height: 276px;
   height: 307px;
   min-width: 210px;
   width: 254px;
   margin-right: 29px;
   padding: 20px;
   border-radius: 10px;
+  color: #ffffff;
+  text-decoration: none;
   line-height: 20px;
   letter-spacing: 0.1px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  z-index: 5;
+  transition: all .2s ease;
 }
 
 .projects__card:last-of-type {
@@ -22,6 +27,7 @@
 .projects__card:hover {
   background: #e0f0ff;
   color: #001337;
+  transform: translateY(-6%);
 }
 
 .projects__card::after {
