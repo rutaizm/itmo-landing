@@ -5,10 +5,12 @@
 
 @media (max-width: 800px) {
   .contacts {
+    padding: 60px 39px;
   }
 }
 
 @media (max-width: 400px) {
   .contacts {
+    padding: 40px 16px;
   }
 }
