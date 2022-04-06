@@ -1,0 +1,9 @@
+.footer__block_hide320 {
+
+}
+
+@media (max-width: 320px) {
+    .footer__block_hide320 {
+        display: none;
+    }
+}
