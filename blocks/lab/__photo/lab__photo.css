@@ -1,5 +1,5 @@
 .lab__photo {
-  width: calc(100% / 2 - 6px);
+  width: 264px;
   height: 100%;
   margin-right: 12px;
   border-radius: 10px;
@@ -8,18 +8,17 @@
 .lab__photo:last-child {
   margin-right: 0;
 }
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 1140px) {
   .lab__photo:first-child {
     display: none;
   }
   .lab__photo {
     width: 100%;
-    height: 240px;
   }
 }
 @media screen and (max-width: 550px) {
   .lab__photo {
-    height: 180px;
+    height: 56vw;
     border-radius: 5px;
   }
 }

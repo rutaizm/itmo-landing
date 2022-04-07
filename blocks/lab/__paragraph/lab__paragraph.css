@@ -13,7 +13,7 @@
   position: absolute;
   left: -36px;
 }
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 900px) {
   .lab__paragraph {
     font-size: 14px;
     line-height: 20px;
