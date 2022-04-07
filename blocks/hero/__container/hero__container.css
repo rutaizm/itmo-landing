@@ -1,4 +1,9 @@
 .hero__container {
-    padding: 94px 165px 0 864px;
-    max-width: 445px;
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 92px;
+    padding-bottom: 16px;
+    box-sizing: border-box;
 }

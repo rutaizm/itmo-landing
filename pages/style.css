@@ -17,11 +17,11 @@
 /* HERO */
 @import url(../blocks/hero/hero.css);
 @import url(../blocks/hero/__container/hero__container.css);
+@import url(../blocks/hero/__content/hero__content.css);
 @import url(../blocks/hero/__title/hero__title.css);
 @import url(../blocks/hero/__title/_lighter/hero__title_lighter.css);
 @import url(../blocks/hero/__subtitle/hero__subtitle.css);
 @import url(../blocks/hero/__button/hero__button.css);
-@import url(../blocks/hero/__button-link/hero__button-link.css);
 
 /* SECTION */
 @import url(../blocks/section/section.css);

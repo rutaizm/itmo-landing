@@ -1,6 +1,6 @@
 .hero {
     background-image: url(../../images/Background.png);
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
     padding-bottom: 45px;
 }
