@@ -5,3 +5,9 @@
 .footer__social > a {
     text-decoration: none;
 }
+
+@media (max-width: 320px) {
+    .footer__social {
+        margin: 21px 0 0 0;
+    }
+}

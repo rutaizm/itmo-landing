@@ -10,3 +10,16 @@
 .footer__link:hover {
     color: #009FAC;
 }
+
+@media (max-width: 768px) {
+    .footer__link {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+@media (max-width: 320px) {
+    .footer__link {
+        line-height: 20px;
+    }
+}
