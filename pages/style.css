@@ -52,11 +52,18 @@
 @import url(../blocks/about/__button/_type_left/about__button_type_left.css);
 @import url(../blocks/about/__button/_type_right/about__button_type_right.css);
 
+
+/*CARD*/
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__date/card__date.css);
 @import url(../blocks/card/__header/card__header.css);
 @import url(../blocks/card/__text/card__text.css);
 @import url(../blocks/card/__image/card__image.css);
+
+/*PARTNERS*/
+@import url(../blocks/partners/__text/partners__text.css);
+@import url(../blocks/partners/__logo-container/partners__logo-container.css);
+@import url(../blocks/partners/__logo-items/partners__logo-items.css);
 
 /* PUBLICATION */
 @import url("../blocks/publication/publication.css");

@@ -32,6 +32,30 @@ const teamSlider = new Swiper('.team__slider', {
     },
 });
 
+const teamCardsContainer = document.querySelector('.team__cards')
+
+const teamSlider = new Swiper('.team__slider', {
+    // Optional parameters
+    // loop: true,
+    spaceBetween: 30,
+    slidesPerView: 4,
+    threshold: 5,
+    preventInteractionOnTransition: true,
+    rewind: true,
+
+    // If we need pagination
+    pagination: {
+        el: '.team__slider-pagination',
+        bulletClass: 'team__pagination-bullet',
+        bulletActiveClass: 'team__pagination-bullet_active',
+      clickable: true,
+      },
+      navigation: {
+        nextEl: '.team__slider-button_next',
+        prevEl: '.team__slider-button_prev',
+    },
+});
+
 const publicationSlider = new Swiper('.publication__slider', {
     // Optional parameters
     slidesPerView: 3,
@@ -61,6 +85,15 @@ const publicationSlider = new Swiper('.publication__slider', {
         prevEl: '.publication__slider-button_prev',
     },
 });
+
+
+// Переделается в класс Section
+function renderTeamCards() {
+    teamCards.forEach(card => {
+        const cardElement = new CardTeam(card, '#tempCardTeam').generateCard()
+        teamCardsContainer.append(cardElement)
+    })
+}
 
 // Переделается в класс Section
 function renderTeamCards() {
