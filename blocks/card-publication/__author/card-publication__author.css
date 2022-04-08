@@ -1,0 +1,39 @@
+.card-publication__author {
+    margin: 0 0 20px;
+    color: #009fac;
+    font-size: 14px;
+    line-height: 19px;
+    font-style: italic;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+@media (max-width: 1440px) {
+    .card-publication__author {
+        margin-bottom: calc(12px + (20 - 12) * ((100vw - 768px) / (1440 - 768)));
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .card-publication__author {
+        font-size: calc(12px + (14 - 12) * ((100vw - 320px) / (768 - 320)));
+        line-height: calc(17.4px + (19 - 17.4) * ((100vw - 320px) / (768 - 320)));
+        margin-bottom: calc(10px + (12 - 10) * ((100vw - 320px) / (768 - 320)));
+    }
+}
+
+@media (max-width: 684px) {
+    .card-publication__author {
+        -webkit-line-clamp: 1;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .card-publication__author {
+        -webkit-line-clamp: 2;
+    }
+}

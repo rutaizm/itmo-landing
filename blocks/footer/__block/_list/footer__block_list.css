@@ -1,3 +1,15 @@
 .footer__block_list {
 
 }
+
+@media (max-width: 768px) {
+    .footer__block_list {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 320px) {
+    .footer__block_list {
+        margin-top: 0;
+    }
+}

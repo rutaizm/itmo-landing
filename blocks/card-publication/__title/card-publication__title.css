@@ -1,0 +1,31 @@
+.card-publication__title {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 4px;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .card-publication__title {
+        font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (768 - 320)));
+        line-height: calc(19px + (30 - 19) * ((100vw - 320px) / (768 - 320)));
+    }
+}
+
+@media (max-width: 684px) {
+    .card-publication__title {
+        -webkit-line-clamp: 1;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .card-publication__title {
+        -webkit-line-clamp: 2;
+    }
+}

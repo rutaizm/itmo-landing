@@ -1,0 +1,7 @@
+.publication__wrapper {
+    display: flex;
+    align-items: start; 
+    column-gap: 16px;
+    position: relative;
+    z-index: 50;
+}

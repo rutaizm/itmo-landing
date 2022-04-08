@@ -1,6 +1,21 @@
 .footer__div {
     margin: 36px auto;
-    display: grid;
-    gap: 150px;
-    grid-template-columns: 263px repeat(2, 95px) 206px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+    .footer__div {
+        margin: 30px auto;
+    }
+}
+
+@media (max-width: 320px) {
+    .footer__div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            'list1 list2'
+            'contacts contacts';
+    }
 }

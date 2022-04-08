@@ -1,0 +1,9 @@
+.footer__text_show320 {
+    visibility: hidden;
+}
+
+@media (max-width: 320px) {
+    .footer__text_show320 {
+        visibility: visible;
+    }
+}
