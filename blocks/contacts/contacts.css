@@ -1,16 +1,16 @@
 .contacts {
-  display: grid;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
-  grid-template-columns: minmax(288px, 1110px);
-  grid-template-rows: 68px 60px 250px;
-  gap: 2em;
-  padding: 3em;
+  align-self: center;
+  padding: 80px 15px 35px;
 }
 
 @media (max-width: 800px) {
   .contacts {
-    grid-template-rows: 22px 64px 430px;
+    padding: 60px 39px;
+  }
+}
+
+@media (max-width: 400px) {
+  .contacts {
+    padding: 40px 16px;
   }
 }

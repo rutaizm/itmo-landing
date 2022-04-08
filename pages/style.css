@@ -83,7 +83,6 @@
 @import url("../blocks/card-publication/__social-button/card-publication__social-button.css");
 
 /* SHARE PUBLICATION */
-
 @import url("../blocks/share-publication/share-publication.css");
 @import url("../blocks/share-publication/_active/share-publication_active.css");
 @import url("../blocks/share-publication/__social/share-publication__social.css");
@@ -105,7 +104,6 @@
 @import url("../blocks/team/__slider/team__slider.css");
 
 /* CARD TEAM */
-
 @import url("../blocks/card-team/card-team.css");
 @import url("../blocks/card-team/__image/card-team__image.css");
 @import url("../blocks/card-team/__name/card-team__name.css");
@@ -116,6 +114,7 @@
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__input/form__input.css);
 @import url(../blocks/form/__input/_name/form__input_name.css);
+@import url(../blocks/form/__error/form__error.css);
 @import url(../blocks/form/__button/form__button.css);
 
 /* FOOTER */
