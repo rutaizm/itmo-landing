@@ -1,0 +1,6 @@
+.header__menu-item {
+  display: flex;
+  min-width: 100px;
+  min-height: 44px;
+  list-style-type: none;
+}

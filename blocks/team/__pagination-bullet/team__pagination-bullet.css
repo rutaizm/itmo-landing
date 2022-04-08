@@ -1,0 +1,12 @@
+.team__pagination-bullet {
+    position: relative;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #e0f0ff;
+    opacity: 0.5;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+}

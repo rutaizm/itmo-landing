@@ -1,0 +1,8 @@
+.publication {
+    background-color: #e0f0ff;
+    padding: 50px 0 420px;
+}
+
+.publication * {
+    box-sizing: border-box;
+}
