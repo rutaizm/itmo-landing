@@ -128,8 +128,13 @@
 @import url(../blocks/footer/__title/_list/footer__title_list.css);
 @import url(../blocks/footer/__div/footer__div.css);
 @import url(../blocks/footer/__block/footer__block.css);
+@import url(../blocks/footer/__block/_logo/footer__block_logo.css);
 @import url(../blocks/footer/__block/_info/footer__block_info.css);
 @import url(../blocks/footer/__block/_list/footer__block_list.css);
 @import url(../blocks/footer/__block/_contacts/footer__block_contacts.css);
 @import url(../blocks/footer/__social/footer__social.css);
 @import url(../blocks/footer/__svg/footer__svg.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__block/_hide320/footer__block_hide320.css);
+@import url(../blocks/footer/__text/_show320/footer__text_show320.css);
+@import url(../blocks/footer/__grid-names/footer__grid-names.css);
