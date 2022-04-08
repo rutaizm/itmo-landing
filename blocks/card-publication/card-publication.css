@@ -1,8 +1,9 @@
 .card-publication {
-    padding: 20px 0 0;
+    padding: 20px 0 0; 
     background-color: #ffffff;
     box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
     border-radius: 10px;
+    max-height: 548px;
 }
 
 .card-publication:hover .card-publication__content {
@@ -11,4 +12,19 @@
 
 .card-publication:hover .card-publication__image {
     height: 158px;
+}
+
+@media (max-width: 768px) {
+    .card-publication {
+        padding-top: calc(16px + (20 - 16) * ((100vw - 320px) / (768 - 320)));
+        max-height: 515px;
+    }
+
+    .card-publication:hover .card-publication__content {
+        transform: translateY(0);
+    }
+
+    .card-publication:hover .card-publication__image {
+        height: 100%;
+    }
 }
