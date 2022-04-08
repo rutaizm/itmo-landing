@@ -1,7 +1,17 @@
 .header__menu-item-link {
-  margin: auto;
-  text-decoration: none;
-  color: white;
+  display: inline-block;
+  color: #ffffff;
   font-size: 14px;
   line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.1px;
+  min-width: 100px;
+  padding: 11px 0;
+  border-bottom: 2px solid #000D26;
+}
+
+.header__menu-item-link:hover {
+  font-weight: 600;
+  border-bottom: 2px solid #009FAC;
 }
