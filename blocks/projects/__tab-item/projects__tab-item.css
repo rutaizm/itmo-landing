@@ -1,0 +1,8 @@
+.projects__tab-item {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  flex-basis: 278px;
+  padding: 12px 16px;
+  text-align: center;
+}

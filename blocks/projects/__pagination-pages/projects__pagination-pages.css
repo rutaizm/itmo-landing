@@ -1,0 +1,9 @@
+.projects__pagination-pages {
+  width: 71px;
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 25px;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+}
