@@ -1,0 +1,17 @@
+.lab {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+@media screen and (max-width: 1200px) {
+  .lab {
+    max-width: calc(100% - 39px * 2);
+    padding-bottom: 60px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .lab {
+    max-width: calc(100% - 16px * 2);
+    padding-bottom: 40px;
+  }
+}
