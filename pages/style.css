@@ -4,6 +4,9 @@
 /* PAGE */
 @import url(../blocks/page/page.css);
 
+/* FONT */
+@import url(../blocks/font/_weight/font_weight_lighter.css);
+
 /* HEADER */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__container/header__container.css);
@@ -12,3 +15,35 @@
 @import url(../blocks/header/__menu-list/header__menu-list.css);
 @import url(../blocks/header/__menu-item/header__menu-item.css);
 @import url(../blocks/header/__menu-item-link/header__menu-item-link.css);
+
+/* SECTION */
+@import url(../blocks/section/section.css);
+@import url(../blocks/section/_theme/section_theme_emerald.css);
+@import url(../blocks/section/_theme/section_theme_light-blue.css);
+@import url(../blocks/section/_theme/section_theme_dark-blue.css);
+@import url(../blocks/section/__container/section__container.css);
+@import url(../blocks/section/__title/section__title.css);
+@import url(../blocks/section/__text/section__text.css);
+
+/* MAIN */
+@import url(../blocks/main/main.css);
+
+/* HERO */
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__container/hero__container.css);
+@import url(../blocks/hero/__content/hero__content.css);
+@import url(../blocks/hero/__title/hero__title.css);
+@import url(../blocks/hero/__subtitle/hero__subtitle.css);
+@import url(../blocks/hero/__button/hero__button.css);
+
+/* ABOUT */
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__list/about__list.css);
+@import url(../blocks/about/__text/about__text.css);
+@import url(../blocks/about/__button/about__button.css);
+@import url(../blocks/about/__button/_type_left/about__button_type_left.css);
+@import url(../blocks/about/__button/_type_right/about__button_type_right.css);
+@import url(../blocks/about/__card/about__card.css);
+@import url(../blocks/about/__card-date/about__card-date.css);
+@import url(../blocks/about/__card-header/about__card-header.css);
+@import url(../blocks/about/__card-text/about__card-text.css);
