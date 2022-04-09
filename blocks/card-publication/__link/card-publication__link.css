@@ -21,3 +21,10 @@
     right: 5px;
     transform: translateY(-50%);
 }
+
+@media (max-width: 768px) {
+    .card-publication__link  {
+        font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (768 - 320)));
+        line-height: calc(19px + (30 - 19) * ((100vw - 320px) / (768 - 320)));
+    }
+}

@@ -4,6 +4,10 @@
 /* PAGE */
 @import url(../blocks/page/page.css);
 
+/* ARROW */
+@import url(../blocks/arrow/_previous/arrow_previous.css);
+@import url(../blocks/arrow/_next/arrow_next.css);
+
 /* HEADER */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__container/header__container.css);
@@ -47,6 +51,20 @@
 @import url(../blocks/lab/__card/_micro/lab__card_micro.css);
 @import url(../blocks/lab/__card/_robot/lab__card_robot.css);
 
+/* PROJECTS */
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__tabs-list/projects__tabs-list.css);
+@import url(../blocks/projects/__tab-item/projects__tab-item.css);
+@import url(../blocks/projects/__tab-item/_active/projects__tab-item_active.css);
+@import url(../blocks/projects/__tab-link/projects__tab-link.css);
+@import url(../blocks/projects/__cards-container/projects__cards-container.css);
+@import url(../blocks/projects/__card/projects__card.css);
+@import url(../blocks/projects/__card-image/projects__card-image.css);
+@import url(../blocks/projects/__card-text/projects__card-text.css);
+@import url(../blocks/projects/__card-footer/projects__card-footer.css);
+@import url(../blocks/projects/__pagination/projects__pagination.css);
+@import url(../blocks/projects/__pagination-arrow/projects__pagination-arrow.css);
+@import url(../blocks/projects/__pagination-pages/projects__pagination-pages.css);
 
 /* EDUCATION */
 @import url(../blocks/education/education.css);
@@ -73,11 +91,18 @@
 @import url(../blocks/about/__button/_type_left/about__button_type_left.css);
 @import url(../blocks/about/__button/_type_right/about__button_type_right.css);
 
+
+/*CARD*/
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__date/card__date.css);
 @import url(../blocks/card/__header/card__header.css);
 @import url(../blocks/card/__text/card__text.css);
 @import url(../blocks/card/__image/card__image.css);
+
+/*PARTNERS*/
+@import url(../blocks/partners/__text/partners__text.css);
+@import url(../blocks/partners/__logo-container/partners__logo-container.css);
+@import url(../blocks/partners/__logo-items/partners__logo-items.css);
 
 /* PUBLICATION */
 @import url("../blocks/publication/publication.css");
@@ -104,7 +129,6 @@
 @import url("../blocks/card-publication/__social-button/card-publication__social-button.css");
 
 /* SHARE PUBLICATION */
-
 @import url("../blocks/share-publication/share-publication.css");
 @import url("../blocks/share-publication/_active/share-publication_active.css");
 @import url("../blocks/share-publication/__social/share-publication__social.css");
@@ -126,7 +150,6 @@
 @import url("../blocks/team/__slider/team__slider.css");
 
 /* CARD TEAM */
-
 @import url("../blocks/card-team/card-team.css");
 @import url("../blocks/card-team/__image/card-team__image.css");
 @import url("../blocks/card-team/__name/card-team__name.css");
@@ -137,6 +160,7 @@
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__input/form__input.css);
 @import url(../blocks/form/__input/_name/form__input_name.css);
+@import url(../blocks/form/__error/form__error.css);
 @import url(../blocks/form/__button/form__button.css);
 
 /* FOOTER */
@@ -150,8 +174,13 @@
 @import url(../blocks/footer/__title/_list/footer__title_list.css);
 @import url(../blocks/footer/__div/footer__div.css);
 @import url(../blocks/footer/__block/footer__block.css);
+@import url(../blocks/footer/__block/_logo/footer__block_logo.css);
 @import url(../blocks/footer/__block/_info/footer__block_info.css);
 @import url(../blocks/footer/__block/_list/footer__block_list.css);
 @import url(../blocks/footer/__block/_contacts/footer__block_contacts.css);
 @import url(../blocks/footer/__social/footer__social.css);
 @import url(../blocks/footer/__svg/footer__svg.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__block/_hide320/footer__block_hide320.css);
+@import url(../blocks/footer/__text/_show320/footer__text_show320.css);
+@import url(../blocks/footer/__grid-names/footer__grid-names.css);

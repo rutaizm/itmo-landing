@@ -43,7 +43,6 @@
       </nav>
     </div>
   </header>
-
   <main class="content">
     <section class="section hero" id="About">
       <h1 class="hero__title">Когнитивные технологии, <span class="hero__title_lighter">машинное обучение</span></h1>
@@ -210,8 +209,8 @@
           <div class="publication__slider-button publication__slider-button_prev"></div>
           <div class="publication__slider-pagination">
           </div>
-          <div class="swiper publication__slider">
-            <div class="swiper-wrapper publication__cards">
+          <div class="publication__slider swiper">
+            <div class="publication__cards swiper-wrapper">
             </div>
           </div>
           <div class="publication__slider-button publication__slider-button_next"></div>
@@ -223,8 +222,8 @@
         <div class="team__wrapper">
           <div class="team__slider-button team__slider-button_prev"></div>
           <div class="team__slider-pagination"></div>
-          <div class="swiper team__slider">
-            <div class="swiper-wrapper team__cards">
+          <div class=" team__slider swiper">
+            <div class=" team__cards swiper-wrapper">
             </div>
           </div>
           <div class="team__slider-button team__slider-button_next"></div>
@@ -232,26 +231,46 @@
       </div>
     </section>
     <section class="section section_theme_dark-blue">
-      <div class="partners section__container">
-        <h2 class="section__title">С кем мы работаем</h2>
+    <div class="partners section__container">
+      <h2 class="section__title">С кем мы работаем</h2>
+      <p class="partners__text section__text">За время сотрудничества компания показала себя как надежный партнер, способный оперативно решать вопросы по внесению необходимых изменений.</p>
+      <p class="partners__text section__text">Отдельно хочется отметить квалифицированный персонал компании, который всегда готов прийти на помощь в решении поставленных задач, дать объективную оценку и свои рекомендации по улучшению деятельности.
+        Надеемся на дальнейшее и плодотворное сотрудничество.</p>
+      <div class="partners__logo-container"> 
+      <div class="partners__logo-items">
+        <img src="./images/Gazprom.svg" alt="Логотип Газпром">
+        <img src="./images/Sberbank.svg" alt="Логотип Сбербанк">
+        <img src="./images/MailLogo.svg" alt="Логотип Мэйру">
+        <img src="./images/Siemens.svg" alt="Логотип Сименс">
+        <img src="./images/huawei.svg" alt="Логотип Хуавей">
+        </div>
+        <div class="partners__logo-items">  
+        <img src="./images/Sberbank.svg" alt="Логотип Сбербанк">
+        <img src="./images/Rosneft.svg" alt="Логотип Роснефть">
+        <img src="./images/Gazprom.svg" alt="Логотип Газпром">
+        <img src="./images/huawei.svg" alt="Логотип Хуавей">
+        <img src="./images/MailLogo.svg" alt="Логотип Мэйру">
       </div>
-    </section>
+    </div> 
+    </div>
+    </div>    
+  </section>
     <section class="section section_theme_emerald" id="Contacts">
       <div class="contacts section__container">
         <h2 class="section__title">Всегда на связи</h2>
         <p class="section__text">По всем интересующим вас вопросам вы всегда можете обратиться по указанным телефонам,
           написать на почту или оставить свое сообщение через форму обратной связи.</p>
-        <form action="#" class="form">
+        <form action="#" method="GET" class="form">
           <input type="text" class="form__input form__input_name_name" name="name" placeholder="Имя">
           <span class="form__error name-input-error"></span>
           <input type="text" class="form__input form__input_name_surname" name="surname" placeholder="Фамилия">
           <span class="form__error surname-input-error"></span>
-          <textarea cols="30" rows="10" class="form__input form__input_name_message" name="message"
+          <textarea class="form__input form__input_name_message" name="message"
             placeholder="Сообщение"></textarea>
           <span class="form__error message-input-error"></span>
           <input type="tel" class="form__input form__input_name_phone" name="phone" placeholder="Телефон">
           <span class="form__error phone-input-error"></span>
-          <input type="email" class="form__input form__input_name_email" name="email" placeholder="E-mail">
+          <input type="email" class="form__input form__input_name_email" name="email" placeholder="E-mail" required>
           <span class="form__error name-input-error"></span>
           <button class="button form__button form__input_name_button">Отправить</button>
         </form>
@@ -260,16 +279,20 @@
   </main>
   <footer class="footer">
     <div class="footer__main-container">
-      <a href="index.html"><img alt="Logo" src="./images/logo.png"></a>
+      <div class="footer__block footer__block_logo">
+        <a href="index.html"><img alt="Logo" src="./images/logo.png" class="footer__logo"></a>
+        <p class="footer__text footer__text_show320">Информация © 2020 Университет ИТМО</p>
+      </div>
       <div class="footer__div">
-        <div class="footer__block footer__block_info">
+        <div class="footer__block footer__block_info footer__block_hide320">
           <p class="footer__text">Информация © 2020 Университет ИТМО</p>
-          <p class="footer__text">Национальный центр когнитивных разработок – центр национальной технологической
+          <p class="footer__text">Национальный центр когнитивных разработок – центр национальной
+            технологической
             инициативы
             (НТИ), получивший государственную поддержку по направлению «Технологии машинного обучения и когнитивные
             технологии». Инфраструктурная основа взаимодействия научных, образовательных и промышленных организаций</p>
         </div>
-        <div class="footer__block footer__block_list">
+        <div class="footer__block footer__block_list footer__grid-names_list1">
           <h5 class="footer__title footer__title_list">О центре</h5>
           <ul class="footer__list">
             <li><a class="footer__link" href="#About">О нас</a></li>
@@ -279,7 +302,7 @@
             <li><a class="footer__link" href="#Contacts">Контакты</a></li>
           </ul>
         </div>
-        <div class="footer__block footer__block_list">
+        <div class="footer__block footer__block_list footer__grid-names_list2">
           <h5 class="footer__title footer__title_list">Развитие</h5>
           <ul class="footer__list">
             <li><a class="footer__link" href="#Education">Образование</a></li>
@@ -291,7 +314,7 @@
             <li><a class="footer__link" href="#Projects">Проекты</a></li>
           </ul>
         </div>
-        <div class="footer__block footer__block_contacts">
+        <div class="footer__block footer__block_contacts footer__grid-names_contacts">
           <p class="footer__title">г.Санкт-Петербург</p>
           <p class="footer__text">199034, Санкт-Петербург,
             Биржевая линия, д. 4, лит. М,
@@ -344,9 +367,8 @@
     </div>
   </footer>
 
-
   <template id="tempCardTeam">
-    <div class="swiper-slide team-card card-team">
+    <div class="team-card card-team swiper-slide">
       <img class="card-team__image">
       <p class="card-team__name"></p>
       <p class="card-team__about"></p>
@@ -354,7 +376,7 @@
   </template>
 
   <template id="tempCardPublication">
-    <div class="swiper-slide publication__card card-publication">
+    <div class="publication__card card-publication swiper-slide">
       <div class="card-publication__image-box">
         <img class="card-publication__image">
       </div>

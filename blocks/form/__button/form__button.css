@@ -8,4 +8,27 @@
   line-height: 30px;
   text-transform: uppercase;
   color: #FFFFFF;
+  margin-top: 17px;
+  transition: all 0.5s ease;
+}
+
+.form__button:hover {
+  cursor: pointer;
+  background: #FFFFFF;
+  color: #000D26;
+}
+
+@media (max-width: 800px) {
+  .form__button {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .form__button {
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 11px;
+  }
 }

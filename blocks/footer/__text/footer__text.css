@@ -5,3 +5,10 @@
     color: #FFFFFF;
     margin: 0 0 8px 0;
 }
+
+@media (max-width: 768px) {
+    .footer__text {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}

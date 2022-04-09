@@ -1,0 +1,8 @@
+.projects__tabs-list {
+  margin: 0 auto;
+  padding: 0 0 60px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1110px;
+}

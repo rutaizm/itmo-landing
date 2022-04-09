@@ -1,0 +1,4 @@
+.projects__tab-item_active {
+  font-weight: 600;
+  border-bottom: 5px solid #009fac;
+}

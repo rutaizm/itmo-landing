@@ -3,3 +3,17 @@
     height: 223px;
     margin-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+    .card-publication__image-box {
+        padding: 0 calc(16px + (19 - 16) * ((100vw - 320px) / (768 - 320)));
+        margin-bottom: calc(12px + (20 - 12) * ((100vw - 320px) / (768 - 320)));
+        height: 158px;
+    }
+}
+
+@media (max-width: 684px) {
+    .card-publication__image-box {
+        height: calc(160px + (255 - 160) * ((100vw - 320px) / (684 - 320)));
+    }
+}

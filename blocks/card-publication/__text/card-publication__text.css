@@ -7,3 +7,24 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+
+@media (max-width: 768px) {
+    .card-publication__text {
+        font-size: calc(14px + (14 - 12) * ((100vw - 320px) / (768 - 320)));
+        line-height: calc(16px + (19 - 16) * ((100vw - 320px) / (768 - 320)));
+    }
+}
+
+@media (max-width: 684px) {
+    .card-publication__text {
+        font-size: calc(14px + (14 - 12) * ((100vw - 320px) / (768 - 320)));
+        line-height: calc(16px + (19 - 16) * ((100vw - 320px) / (768 - 320)));
+        -webkit-line-clamp: 5;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-publication__text {
+        -webkit-line-clamp: 8;
+    }
+}

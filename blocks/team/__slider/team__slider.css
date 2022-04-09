@@ -2,3 +2,17 @@
     padding: 15px;
     margin: -15px;
 }
+
+@media (max-width: 768px) {
+    .team__slider {
+        padding-right: calc(18px + (39 - 18) * ((100vw - 320px) / (768 - 320)));
+        margin-right: calc(-8px + (-30 - -8) * ((100vw - 320px) / (768 - 320)));
+    }
+}
+
+@media (max-width: 480px) {
+    .team__slider {
+        padding: 15px calc(18px + (39 - 18) * ((100vw - 320px) / (768 - 320)));
+        margin: -15px calc(-8px + (-30 - -8) * ((100vw - 320px) / (768 - 320)));
+    }
+}
