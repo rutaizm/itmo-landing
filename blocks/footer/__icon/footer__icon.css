@@ -1,0 +1,14 @@
+.footer__icon {
+    display: inline-block;
+    padding-right: 8px;
+    fill: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer__icon:last-of-type {
+    margin-right: 0;
+}
+
+.footer__icon:hover {
+    fill: #009FAC;
+}

@@ -1,0 +1,26 @@
+.footer__grid-container {
+  display: grid;
+  grid-template-columns: 270px 95px 95px 210px;
+  justify-content: space-between;
+  column-gap: 35px;
+}
+
+.footer__grid-container > * {
+  /*border: 1px solid red;*/
+}
+
+@media screen and (max-width: 830px) {
+
+  .footer__grid-container {
+    grid-template-columns: 200px 80px 80px 205px;
+  }
+  
+}
+
+@media screen and (max-width: 767px) {
+
+  .footer__grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+}

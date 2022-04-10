@@ -1,20 +1,7 @@
 .footer__title {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 30px;
-    color: #FFFFFF;
-    margin: 0 0 12px 0;
-}
-
-@media (max-width: 768px) {
-    .footer__title {
-        font-size: 12px;
-        line-height: 16px;
-    }
-}
-
-@media (max-width: 320px) {
-    .footer__title {
-        margin-bottom: 8px;
-    }
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  margin: 0 0 12px;
+  padding: 0;
 }

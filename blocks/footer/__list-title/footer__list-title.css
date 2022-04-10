@@ -1,0 +1,15 @@
+.footer__list-title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  padding-bottom: 12px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .footer__list-title {
+    font-size: 12px;
+  }
+  
+}

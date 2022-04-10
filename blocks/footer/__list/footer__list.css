@@ -1,19 +1,5 @@
 .footer__list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.footer__list > li {
-    margin: 0 0 8px 0;
-}
-
-.footer__list > li:last-of-type {
+  list-style: none;
+  padding: 0;
   margin: 0;
-}
-
-@media (max-width: 320px) {
-    .footer__list > li {
-        margin: 0;
-    }
 }

@@ -21,7 +21,6 @@
 @import url(../blocks/section/_theme/section_theme_emerald.css);
 @import url(../blocks/section/_theme/section_theme_light-blue.css);
 @import url(../blocks/section/_theme/section_theme_dark-blue.css);
-@import url(../blocks/section/__container/section__container.css);
 @import url(../blocks/section/__title/section__title.css);
 @import url(../blocks/section/__text/section__text.css);
 
@@ -47,3 +46,33 @@
 @import url(../blocks/about/__card-date/about__card-date.css);
 @import url(../blocks/about/__card-header/about__card-header.css);
 @import url(../blocks/about/__card-text/about__card-text.css);
+
+/* FOOTER */
+@import url(../blocks/footer/footer.css);
+
+@import url(../blocks/footer/__grid-container/footer__grid-container.css);
+@import url(../blocks/footer/__grid-block/footer__grid-block_logo.css);
+@import url(../blocks/footer/__grid-block/footer__grid-block_copyright.css);
+@import url(../blocks/footer/__grid-block/footer__grid-block_description.css);
+@import url(../blocks/footer/__grid-block/footer__grid-block_about.css);
+@import url(../blocks/footer/__grid-block/footer__grid-block_development.css);
+@import url(../blocks/footer/__grid-block/footer__grid-block_address.css);
+@import url(../blocks/footer/__grid-block/footer__grid-block_social.css);
+@import url(../blocks/footer/__grid-block/footer__grid-block_madeby.css);
+
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__list-title/footer__list-title.css);
+@import url(../blocks/footer/__list-item/footer__list-item.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__contacts-list-item/footer__contacts-list-item.css);
+@import url(../blocks/footer/__icon/footer__icon.css);
+
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__address/footer__address.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__contacts-email/footer__contacts_email.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__madeby/footer__madeby.css);

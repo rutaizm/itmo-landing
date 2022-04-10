@@ -1,0 +1,23 @@
+.footer__grid-block_development {
+  grid-area: development;
+  grid-column: 3 / 4;
+  grid-row: 2 / 4;
+}
+
+@media screen and (max-width: 768px) {
+
+  .footer__grid-block_development {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .footer__grid-block_development {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+}
