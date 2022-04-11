@@ -3,18 +3,5 @@
     display: flex;
     justify-content: center;
     column-gap: 12px;
-    bottom: -39px !important;
-}
-
-@media (max-width: 1440px) {
-    .team__slider-pagination {
-        bottom: calc(-32px + (-39 - -32) * ((100vw - 768px) / (1440 - 768))) !important;
-    }
-}
-
-@media (max-width: 768px) {
-    .team__slider-pagination {
-        bottom: calc(-18px + (-32 - -18) * ((100vw - 320px) / (768 - 320))) !important;
-        column-gap: calc(8px + (12 - 8) * ((100vw - 320px) / (768 - 320)));
-    }
+    bottom: -38px !important;
 }

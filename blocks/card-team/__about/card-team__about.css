@@ -5,18 +5,7 @@
     text-align: center;
     color: #009fac;
     margin: 0;
-}
-
-@media (max-width: 1440px) {
-    .card-team__about {
-        font-size: calc(12px + (14 - 12) * ((100vw - 768px) / (1440 - 768)));
-        line-height: calc(17.4px + (19 - 17.4) * ((100vw - 768px) / (1440 - 768)));
-    }
-}
-
-@media (max-width: 768px) {
-    .card-team__about {
-        font-size: calc(10px + (12 - 10) * ((100vw - 320px) / (768 - 320)));
-        line-height: calc(13.6px + (17.4 - 13.6) * ((100vw - 320px) / (768 - 320)));
-    }
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }

@@ -8,29 +8,3 @@
     border-radius: 0 0 10px 10px;
     height: 285px;
 }
-
-@media (max-width: 1440px) {
-    .card-publication__content {
-        height: calc(267px + (285 - 267) * ((100vw - 768px) / (1440 - 768)));
-    }
-}
-
-@media (max-width: 768px) {
-    .card-publication__content {
-        padding: 0 calc(16px + (10 - 16) * ((100vw - 320px) / (768 - 320)));
-        padding-bottom: calc(16px + (10 - 16) * ((100vw - 320px) / (768 - 320)));
-        height: calc(230px + (267 - 230) * ((100vw - 320px) / (768 - 320)));
-    }
-}
-
-@media (max-width: 684px) {
-    .card-publication__content {
-        height: 100%;
-    }
-
-}
-@media (max-width: 480px) {
-    .card-publication__content {
-        height: calc(230px + (267 - 230) * ((100vw - 320px) / (768 - 320)));
-    }
-}
