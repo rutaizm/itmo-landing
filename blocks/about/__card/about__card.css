@@ -1,0 +1,26 @@
+.about__card {
+    position: relative;
+    min-height: 340px;
+    min-width: 288px;
+    max-width: 348px;
+    border-radius: 10px;
+    background-color: rgba(224, 240, 255, 1);
+    padding: 20px 20px 30px;
+    box-sizing: border-box;
+}
+
+.about__card:nth-last-of-type(2) {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.about__card::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-image: url(../../../images/pin.svg);
+    width: 29px;
+    height: 40px;
+    right: -9px;
+    top: -15px;
+}

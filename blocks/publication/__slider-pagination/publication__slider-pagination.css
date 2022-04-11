@@ -2,15 +2,6 @@
     position: absolute;
     display: flex;
     justify-content: center;
-    gap: 12px;
-    flex-wrap: wrap;
-    bottom: -21px !important;
-    transform: translateY(100%);
-}
-
-@media (max-width: 768px) {
-    .publication__slider-pagination {
-        bottom: calc(-14px + (-21 - -14) * ((100vw - 320px) / (768 - 320))) !important;
-        gap: calc(8px + (12 - 8) * ((100vw - 320px) / (768 - 320)));
-    }
+    column-gap: 12px;
+    bottom: -29px !important;
 }

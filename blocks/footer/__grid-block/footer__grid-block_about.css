@@ -1,0 +1,23 @@
+.footer__grid-block_about {
+  grid-area: about;
+  grid-column: 2 / 3;
+  grid-row: 2 / 4;
+}
+
+@media screen and (max-width: 768px) {
+
+  .footer__grid-block_about {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .footer__grid-block_about {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+}

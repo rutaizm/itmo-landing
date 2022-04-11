@@ -9,67 +9,6 @@ const teamCardsContainer = document.querySelector('.team__cards')
 
 const teamSlider = new Swiper('.team__slider', {
     // Optional parameters
-    loop: false,
-    spaceBetween: 30,
-    preventInteractionOnTransition: true,
-    rewind: true,
-    grabCursor: true,
-
-    breakpoints: {
-        1220: {
-            slidesPerView: 4,
-        },
-
-        930: {
-            slidesPerView: 3,
-        },
-
-        769: {
-            slidesPerView: 2,
-        },
-
-        720: {
-            slidesPerView: 3,
-            spaceBetween: 30,
-        },
-
-        685: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-        },
-
-        481: {
-            slidesPerView: 2,
-            spaceBetween: 15,
-            loop: false,
-        },
-
-        320: {
-            slidesPerView: 2,
-            spaceBetween: 8,
-            loop: true,
-        }
-    },
-
-    // If we need pagination
-    pagination: {
-        el: '.team__slider-pagination',
-        bulletClass: 'team__pagination-bullet',
-        bulletActiveClass: 'team__pagination-bullet_active',
-        clickable: true,
-    },
-
-    // Navigation arrows
-    navigation: {
-        nextEl: '.team__slider-button_next',
-        prevEl: '.team__slider-button_prev',
-    },
-});
-
-const teamCardsContainer = document.querySelector('.team__cards')
-
-const teamSlider = new Swiper('.team__slider', {
-    // Optional parameters
     // loop: true,
     spaceBetween: 30,
     slidesPerView: 4,
@@ -82,9 +21,11 @@ const teamSlider = new Swiper('.team__slider', {
         el: '.team__slider-pagination',
         bulletClass: 'team__pagination-bullet',
         bulletActiveClass: 'team__pagination-bullet_active',
-      clickable: true,
-      },
-      navigation: {
+        clickable: true,
+    },
+
+    // Navigation arrows
+    navigation: {
         nextEl: '.team__slider-button_next',
         prevEl: '.team__slider-button_prev',
     },
@@ -163,15 +104,6 @@ const publicationSlider = new Swiper('.publication__slider', {
         prevEl: '.publication__slider-button_prev',
     },
 });
-
-
-// Переделается в класс Section
-function renderTeamCards() {
-    teamCards.forEach(card => {
-        const cardElement = new CardTeam(card, '#tempCardTeam').generateCard()
-        teamCardsContainer.append(cardElement)
-    })
-}
 
 // Переделается в класс Section
 function renderTeamCards() {

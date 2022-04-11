@@ -1,0 +1,9 @@
+.hero__container {
+  box-sizing: border-box;
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 92px;
+  padding-bottom: 44px;
+}

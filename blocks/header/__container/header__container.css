@@ -1,8 +1,25 @@
 .header__container {
+  box-sizing: border-box;
   margin: 0 auto;
   max-width: 1110px;
   padding: 13px 0;
   display: flex;
   justify-content: space-between;
-  align-items: center;   
+  align-items: center;
+}
+
+@media screen and (max-width: 1160px) {
+
+  .header__container {
+    padding: 13px 29px;
+  }
+  
+}
+
+@media screen and (max-width: 1020px) {
+
+  .header__container {
+    flex-direction: column;
+  }
+  
 }

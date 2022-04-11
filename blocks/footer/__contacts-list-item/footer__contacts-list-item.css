@@ -1,0 +1,12 @@
+.footer__contacts-list-item {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .footer__contacts-list-item {
+    font-size: 12px;
+  }
+  
+}

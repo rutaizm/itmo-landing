@@ -1,0 +1,12 @@
+.about__card-header {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #001337;
+    text-transform: uppercase;
+    margin-top: 8px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
