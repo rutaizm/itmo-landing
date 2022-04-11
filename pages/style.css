@@ -152,6 +152,11 @@
 @import url("../blocks/card-team/__name/card-team__name.css");
 @import url("../blocks/card-team/__about/card-team__about.css");
 
+/*PARTNERS*/
+@import url(../blocks/partners/__text/partners__text.css);
+@import url(../blocks/partners/__logo-container/partners__logo-container.css);
+@import url(../blocks/partners/__logo-items/partners__logo-items.css);
+
 /* CONTACTS */
 @import url(../blocks/contacts/contacts.css);
 @import url(../blocks/form/form.css);
