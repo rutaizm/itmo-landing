@@ -1,0 +1,36 @@
+.lab__card {
+  background-color: white;
+  color: #001337;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  padding: 30px 20px 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.lab__card:hover {
+  transform: translateY(-20px);
+  transition: all 0.5s ease;
+  color: white;
+}
+@media screen and (max-width: 800px) {
+  .lab__card {
+    padding: 12px;
+    border-radius: 5.88372px;
+    font-size: 10px;
+    line-height: 14px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .lab__card {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .lab__card:hover {
+    transform: none;
+  }
+}

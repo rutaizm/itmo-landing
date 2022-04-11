@@ -1,0 +1,9 @@
+.lab__card_brain {
+  background-image: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url(../../../../images/bg-lab-2.jpg);
+  background-size: cover;
+}
+.lab__card_brain:hover{
+  background: #009FAC;
+  background-image: linear-gradient(180deg, #009FAC 0%, rgba(224, 240, 255, 0) 100%, rgba(0, 159, 172, 0) 100%),url(../../../../images/bg-lab-2.jpg);
+  background-size: cover;
+}

@@ -1,0 +1,24 @@
+.lab__photo {
+  width: 264px;
+  height: 100%;
+  margin-right: 12px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.lab__photo:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 1140px) {
+  .lab__photo:first-child {
+    display: none;
+  }
+  .lab__photo {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .lab__photo {
+    height: 56vw;
+    border-radius: 5px;
+  }
+}

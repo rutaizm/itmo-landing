@@ -1,0 +1,31 @@
+.lab__paragraph {
+  position: relative;
+  margin: 0;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+}
+.lab__paragraph::before {
+  content: url(../../../images/moleculer.png);
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+  position: absolute;
+  left: -36px;
+}
+@media screen and (max-width: 900px) {
+  .lab__paragraph {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .lab__paragraph::before {
+    display: none;
+  }
+}
+@media screen and (max-width: 550px) {
+  .lab__paragraph {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+  }
+}

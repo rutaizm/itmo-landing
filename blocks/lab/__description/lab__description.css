@@ -1,0 +1,22 @@
+.lab__description {
+  display: flex;
+  flex-direction: column;
+  max-width: calc(100% / 2 - 15px);
+  margin-right: 30px
+}
+@media screen and (max-width: 1130px) {
+  .lab__description {
+    max-width: 55vw;
+  }
+}
+@media screen and (max-width: 800px) {
+  .lab__description {
+    max-width: 330px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .lab__description {
+    max-width: 100%;
+    margin: 0;
+  }
+}

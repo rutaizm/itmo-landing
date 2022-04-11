@@ -1,0 +1,8 @@
+.lab__card-paragraph {
+  margin: 0 0 23px 0;
+}
+@media screen and (max-width: 1200px) {
+  .lab__card-paragraph {
+    margin-bottom: 13px;
+  }
+}

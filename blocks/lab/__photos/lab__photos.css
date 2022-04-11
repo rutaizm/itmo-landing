@@ -1,0 +1,9 @@
+.lab__photos {
+  display: flex;
+  max-width: calc(100% / 2);
+}
+@media screen and (max-width: 760px) {
+  .lab__photos {
+    max-width: 100%;
+  }
+}

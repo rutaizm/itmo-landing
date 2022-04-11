@@ -47,6 +47,50 @@
 @import url(../blocks/about/__card-header/about__card-header.css);
 @import url(../blocks/about/__card-text/about__card-text.css);
 
+/* LAB */
+@import url(../blocks/lab/lab.css);
+@import url(../blocks/lab/__container/lab__container.css);
+@import url(../blocks/lab/__alignment/lab__alignment.css);
+@import url(../blocks/lab/__description/lab__description.css);
+@import url(../blocks/lab/__paragraph/lab__paragraph.css);
+@import url(../blocks/lab/__title/lab__title.css);
+@import url(../blocks/lab/__photos/lab__photos.css);
+@import url(../blocks/lab/__photo/lab__photo.css);
+@import url(../blocks/lab/__card/lab__card.css);
+@import url(../blocks/lab/__cards/lab__cards.css);
+@import url(../blocks/lab/__card-icon/lab__card-icon.css);
+@import url(../blocks/lab/__card-button/lab__card-button.css);
+@import url(../blocks/lab/__card-paragraph/lab__card-paragraph.css);
+@import url(../blocks/lab/__card-title/lab__card-title.css);
+@import url(../blocks/lab/__card/_project/lab__card_project.css);
+@import url(../blocks/lab/__card/_brain/lab__card_brain.css);
+@import url(../blocks/lab/__card/_micro/lab__card_micro.css);
+@import url(../blocks/lab/__card/_robot/lab__card_robot.css);
+
+/* EDUCATION */
+@import url(../blocks/education/education.css);
+@import url(../blocks/education/__cards-wrapper/education__cards-wrapper.css);
+@import url(../blocks/education/__card/education__card.css);
+@import url(../blocks/education/__card/_active/education__card_active.css);
+@import url(../blocks/education/__card-text/education__card-text.css);
+@import url(../blocks/education/__card-header/education__card-header.css);
+@import url(../blocks/education/__card-list/education__card-list.css);
+@import url(../blocks/education/__card-list-item/education__card-list-item.css);
+@import url(../blocks/education/__card-image/education__card-image.css);
+@import url(../blocks/education/__card-footer/education__card-footer.css);
+@import url(../blocks/education/__card-link/education__card-link.css);
+@import url(../blocks/education/__tab-bar/education__tab-bar.css);
+@import url(../blocks/education/__tab/education__tab.css);
+@import url(../blocks/education/__tab/_active/education__tab_active.css);
+@import url(../blocks/education/__tab-button/education__tab-button.css);
+
+/* CONTACTS */
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__input/_name/form__input_name.css);
+@import url(../blocks/form/__button/form__button.css);
+
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
 

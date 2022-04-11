@@ -1,0 +1,23 @@
+.lab__cards {
+  display: grid;
+  grid-template-rows: minmax(430px, max-content);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+@media screen and (max-width: 850px) {
+  .lab__cards {
+    grid-template-rows: minmax(242px, max-content);
+  }
+}
+@media screen and (max-width: 620px) {
+  .lab__cards {
+    grid-template-rows: minmax(224px, max-content) minmax(224px, max-content);
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: 8px; */
+  }
+}
+@media screen and (max-width: 400px) {
+  .lab__cards {
+    gap: 8px;
+  }
+}
